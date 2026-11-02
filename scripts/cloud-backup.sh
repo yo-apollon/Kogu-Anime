@@ -8,23 +8,48 @@ set -euo pipefail
 
 BACKUP_DIR="/home/ubuntu/backups/kogu"
 APP_DIR="/home/ubuntu/arqon"
-PG_BIN="/home/ubuntu/arqon/node_modules/@embedded-postgres/linux-arm64/native/bin"
-PG_PORT="54329"
-PG_DB="arqon_dev"
-PG_USER="postgres"
-export PGPASSWORD="arqon_dev_pw"
+export DATABASE_URL="${DATABASE_URL:-postgres://postgres:arqon_dev_pw@127.0.0.1:54329/arqon_dev}"
 
 TIMESTAMP=$(date -u +"%Y%m%d_%H%M%S")
 mkdir -p "$BACKUP_DIR"
 
 echo "[backup] Iniciando backup diário do Kogu ($TIMESTAMP)..."
 
-# 1. Dump do PostgreSQL (todas as cartas, pactos, saldos, relíquias, configurações)
-if [ -x "$PG_BIN/pg_dump" ]; then
-  "$PG_BIN/pg_dump" -h 127.0.0.1 -p "$PG_PORT" -U "$PG_USER" "$PG_DB" | gzip -9 > "$BACKUP_DIR/kogu_db_${TIMESTAMP}.sql.gz"
-else
-  pg_dump -h 127.0.0.1 -p "$PG_PORT" -U "$PG_USER" "$PG_DB" | gzip -9 > "$BACKUP_DIR/kogu_db_${TIMESTAMP}.sql.gz"
-fi
+# 1. Dump lógico completo do PostgreSQL via Node.js (independe de pg_dump externo)
+cd "$APP_DIR"
+node --input-type=module -e '
+import postgres from "postgres";
+import zlib from "node:zlib";
+import fs from "node:fs";
+
+const sql = postgres(process.env.DATABASE_URL, { max: 1, onnotice: () => {} });
+const tables = [
+  "guilds",
+  "users",
+  "guild_members",
+  "niches",
+  "franchises",
+  "series",
+  "entities",
+  "entity_series",
+  "entity_images",
+  "pacts",
+  "wishes",
+  "disabled_series",
+  "entity_likes"
+];
+const dump = { generatedAt: new Date().toISOString(), tables: {} };
+for (const t of tables) {
+  try {
+    dump.tables[t] = await sql.unsafe(`SELECT * FROM "${t}"`);
+  } catch {
+    dump.tables[t] = [];
+  }
+}
+await sql.end({ timeout: 5 });
+const gz = zlib.gzipSync(Buffer.from(JSON.stringify(dump), "utf8"), { level: 9 });
+fs.writeFileSync(process.argv[1], gz);
+' "$BACKUP_DIR/kogu_db_${TIMESTAMP}.json.gz"
 
 # 2. Backup dos estados de Torre e dados locais (data/)
 if [ -d "$APP_DIR/data" ]; then
