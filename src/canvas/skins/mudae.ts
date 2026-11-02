@@ -52,6 +52,18 @@ const effects: CardLayer = {
     roundRectPath(g, ART, RADIUS);
     g.clip();
     drawVariantEffects(g, c, ART, undefined, EFFECT_SCALE);
+
+    // Aura sutil para cartas Épicas (Era II) e Míticas (Era III) mesmo na variante STANDARD
+    if (c.variant === "STANDARD" && (c.tier === "EPIC" || c.tier === "MYTHIC")) {
+      const auraColor = TIER_FRAME_COLOR[c.tier] ?? COLORS.white;
+      const grad = g.createLinearGradient(0, 0, W, H);
+      grad.addColorStop(0, rgba(auraColor, c.tier === "MYTHIC" ? 0.22 : 0.14));
+      grad.addColorStop(0.45, rgba(auraColor, 0));
+      grad.addColorStop(0.55, rgba(COLORS.white, c.tier === "MYTHIC" ? 0.12 : 0.06));
+      grad.addColorStop(1, rgba(auraColor, c.tier === "MYTHIC" ? 0.26 : 0.16));
+      g.fillStyle = grad;
+      g.fillRect(0, 0, W, H);
+    }
     g.restore();
   },
 };
@@ -91,7 +103,8 @@ const frame: CardLayer = {
         }
       }
     }
-    g.lineWidth = EDGE;
+    const lineW = c.tier === "MYTHIC" ? EDGE + 2 : c.tier === "EPIC" ? EDGE + 1 : EDGE;
+    g.lineWidth = lineW;
     roundRectPath(g, r, RADIUS - EDGE / 2);
     g.stroke();
     g.restore();

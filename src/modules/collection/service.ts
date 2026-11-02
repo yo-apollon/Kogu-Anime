@@ -892,6 +892,151 @@ export async function resolveEditionForInfo(
   return { entityId: chosen?.id ?? entityId, editions };
 }
 
+export const ERA_ASCENSION_COSTS = {
+  EPIC: 15_000,
+  MYTHIC: 75_000,
+} as const;
+
+export interface AscendEntityEraResult {
+  pactId: number;
+  oldEntityId: number;
+  newEntityId: number;
+  entityName: string;
+  fromEdition: EntityEdition;
+  toEdition: EntityEdition;
+  toTier: EntityTier;
+  cost: number;
+  newBalance: number;
+  newBaseAether: number;
+}
+
+/**
+ * Evolui um pacto existente da Era I (BASIC) para Era II (EPIC) ou da Era II (EPIC) para Era III (MYTHIC).
+ * Preserva Selos de Despertar, Variante, Imagem Personalizada, Apelidos e Notas.
+ */
+export async function ascendEntityEra(input: {
+  guildId: string;
+  userId: string;
+  pactId: number;
+  label?: string;
+}): Promise<AscendEntityEraResult> {
+  const { guildId, userId, pactId, label } = input;
+
+  return db.transaction(async (tx) => {
+    const [pactRow] = await tx
+      .select({
+        pactId: pacts.id,
+        entityId: pacts.entityId,
+        aetherAtBind: pacts.aetherAtBind,
+        name: entities.name,
+        edition: entities.edition,
+        parentId: entities.parentId,
+      })
+      .from(pacts)
+      .innerJoin(entities, eq(entities.id, pacts.entityId))
+      .where(and(eq(pacts.id, pactId), eq(pacts.guildId, guildId), eq(pacts.userId, userId)))
+      .limit(1);
+
+    if (!pactRow) {
+      throw new UserError("errors.not_in_pantheon", { query: label ?? String(pactId) });
+    }
+
+    const currentEdition = (pactRow.edition ?? null) as EntityEdition | null;
+    if (!currentEdition) {
+      throw new UserError("collection.ascend_no_editions", { entity: pactRow.name });
+    }
+    if (currentEdition === "MYTHIC") {
+      throw new UserError("collection.ascend_already_mythic", { entity: pactRow.name });
+    }
+
+    const targetEdition: "EPIC" | "MYTHIC" = currentEdition === "BASIC" ? "EPIC" : "MYTHIC";
+    const cost = ERA_ASCENSION_COSTS[targetEdition];
+    const anchorId = pactRow.parentId ?? pactRow.entityId;
+
+    const [targetEntity] = await tx
+      .select({
+        id: entities.id,
+        name: entities.name,
+        tier: entities.tier,
+        baseAether: entities.baseAether,
+      })
+      .from(entities)
+      .where(
+        and(
+          eq(entities.status, "ACTIVE"),
+          eq(entities.edition, targetEdition),
+          sql`(${entities.id} = ${anchorId} OR ${entities.parentId} = ${anchorId})`
+        )
+      )
+      .limit(1);
+
+    if (!targetEntity) {
+      throw new UserError("collection.ascend_no_editions", { entity: pactRow.name });
+    }
+
+    // Verifica se a edição destino já pertence a alguém neste servidor
+    const [existingInGuild] = await tx
+      .select({ userId: pacts.userId })
+      .from(pacts)
+      .where(and(eq(pacts.guildId, guildId), eq(pacts.entityId, targetEntity.id)))
+      .limit(1);
+
+    if (existingInGuild) {
+      throw new UserError("collection.ascend_target_taken", {
+        entity: targetEntity.name,
+        edition: targetEdition,
+      });
+    }
+
+    // Debita o Éter atomicamente
+    const [debited] = await tx
+      .update(guildMembers)
+      .set({ aetherBalance: sql`${guildMembers.aetherBalance} - ${cost}` })
+      .where(
+        and(
+          eq(guildMembers.guildId, guildId),
+          eq(guildMembers.userId, userId),
+          sql`${guildMembers.aetherBalance} >= ${cost}`
+        )
+      )
+      .returning({ balance: guildMembers.aetherBalance });
+
+    if (!debited) {
+      const [m] = await tx
+        .select({ balance: guildMembers.aetherBalance })
+        .from(guildMembers)
+        .where(and(eq(guildMembers.guildId, guildId), eq(guildMembers.userId, userId)))
+        .limit(1);
+      throw new UserError("errors.insufficient_aether", {
+        cost,
+        balance: m?.balance ?? 0,
+      });
+    }
+
+    const nextAetherAtBind = Math.max(pactRow.aetherAtBind, targetEntity.baseAether);
+    await tx
+      .update(pacts)
+      .set({
+        entityId: targetEntity.id,
+        aetherAtBind: nextAetherAtBind,
+      })
+      .where(eq(pacts.id, pactId));
+
+    return {
+      pactId,
+      oldEntityId: pactRow.entityId,
+      newEntityId: targetEntity.id,
+      entityName: targetEntity.name,
+      fromEdition: currentEdition,
+      toEdition: targetEdition,
+      toTier: targetEntity.tier,
+      cost,
+      newBalance: debited.balance,
+      newBaseAether: targetEntity.baseAether,
+    };
+  });
+}
+
 /** Posicao (base 1) do pacto na ordem padrao do Panteao do dono. */
 export async function pactPosition(pactId: number): Promise<number> {
   const mine = alias(pacts, "mine");

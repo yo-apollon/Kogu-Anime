@@ -716,12 +716,12 @@ export function buildBetOptionsRow(
     const disabled = currentBalance !== undefined && currentBalance < num;
     let customId = "";
     if (game === "slot") {
-      customId = `${PROGRESSION_NS}:slot_spin:${userId}:${chip.amount}`;
+      customId = `${PROGRESSION_NS}:slot_spin:${userId}:${chip.amount}:chip`;
     } else if (game === "bj") {
-      customId = `${PROGRESSION_NS}:bj_again:${chip.amount}:${userId}`;
+      customId = `${PROGRESSION_NS}:bj_again:${chip.amount}:${userId}:chip`;
     } else {
       const choice = extra === "coroa" ? "coroa" : "cara";
-      customId = `${PROGRESSION_NS}:cf_replay:${userId}:${chip.amount}:${choice}`;
+      customId = `${PROGRESSION_NS}:cf_replay:${userId}:${chip.amount}:${choice}:chip`;
     }
 
     row.addComponents(

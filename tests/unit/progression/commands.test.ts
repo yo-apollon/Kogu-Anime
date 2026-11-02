@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
+	buildBetOptionsRow,
 	buildBlackjackReplayRow,
 	buildCoinflipReplayRow,
 	buildSlotRow,
@@ -136,5 +137,34 @@ describe("progression module commands", () => {
 		const embed = renderBlackjackEmbed(mockBjGame, true, "pt-BR");
 		expect(embed.data.color).toBe(0x22c55e); // Green
 		expect(embed.data.description).toContain("BLACKJACK NATURAL");
+	});
+
+	it("never duplicates custom_id between replay rows and quick-bet option rows across bet amounts", () => {
+		const bets = [50, 100, 250, 500, 1000];
+		for (const bet of bets) {
+			const slotRow = buildSlotRow("u1", bet, 10000);
+			const slotChips = buildBetOptionsRow("u1", "slot", 10000);
+			const slotIds = [
+				...slotRow.components.map((c) => (c.data as { custom_id?: string }).custom_id),
+				...slotChips.components.map((c) => (c.data as { custom_id?: string }).custom_id),
+			];
+			expect(new Set(slotIds).size).toBe(slotIds.length);
+
+			const bjRow = buildBlackjackReplayRow("u1", bet, 10000);
+			const bjChips = buildBetOptionsRow("u1", "bj", 10000);
+			const bjIds = [
+				...bjRow.components.map((c) => (c.data as { custom_id?: string }).custom_id),
+				...bjChips.components.map((c) => (c.data as { custom_id?: string }).custom_id),
+			];
+			expect(new Set(bjIds).size).toBe(bjIds.length);
+
+			const cfRow = buildCoinflipReplayRow("u1", bet, "cara", 10000);
+			const cfChips = buildBetOptionsRow("u1", "cf", 10000, "cara");
+			const cfIds = [
+				...cfRow.components.map((c) => (c.data as { custom_id?: string }).custom_id),
+				...cfChips.components.map((c) => (c.data as { custom_id?: string }).custom_id),
+			];
+			expect(new Set(cfIds).size).toBe(cfIds.length);
+		}
 	});
 });

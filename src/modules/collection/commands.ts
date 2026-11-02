@@ -40,6 +40,7 @@ import {
 } from "./flags.js";
 import {
   PAGE_SIZE,
+  ascendEntityEra,
   autocompleteEntities,
   dissolveOwnPact,
   findEntityId,
@@ -454,6 +455,7 @@ export const infoCommand: CommandDefinition<typeof infoArgs> = {
 
     const images = await getEntityImages(entityId);
     const currEdIdx = Math.max(0, edition.editions.findIndex((e) => e.id === entityId));
+    const ownedPactId = info.pact && info.pact.userId === ctx.user.id ? info.pact.id : undefined;
     const rows = buildInfoActionRows({
       entityId,
       editions: edition.editions,
@@ -462,6 +464,7 @@ export const infoCommand: CommandDefinition<typeof infoArgs> = {
       currentImageIndex: 0,
       userId: ctx.user.id,
       locale: ctx.locale,
+      ownedPactId,
     });
 
     await ctx.reply({ content, embeds: [embed], files, components: rows });
@@ -1391,6 +1394,57 @@ export const sortmarryCommand: CommandDefinition<typeof sortmarryArgs> = {
 };
 
 // ---------------------------------------------------------------------------
+// $evoluir / $ascend / $era
+// ---------------------------------------------------------------------------
+
+const ascendArgs = z.object({ query: queryText });
+
+export const ascendCommand: CommandDefinition<typeof ascendArgs> = {
+  name: "evoluir",
+  aliases: ["ascend", "era", "despertar"],
+  category: "collection",
+  descriptionKey: "help.commands.info",
+  args: ascendArgs,
+  cooldownMs: 3_000,
+  parseArgs: (tokens) => ({ query: tokens.join(" ") }),
+  slash: () =>
+    slashBase("evoluir", "help.commands.info").addStringOption((o) =>
+      describe(o, SLASH_TEXT.name).setRequired(true).setAutocomplete(true)
+    ),
+  slashArgs: (interaction) => ({ query: optionValue(interaction, "name") }),
+  autocomplete: ownPactAutocomplete,
+  async execute(ctx) {
+    const { query } = ctx.args;
+    const prefix = usagePrefix(ctx);
+    if (!query) throw new UserError("collection.ascend_usage", { prefix });
+
+    const pact = await requireOwnPact(ctx, query);
+    const res = await ascendEntityEra({
+      guildId: ctx.guild.id,
+      userId: ctx.user.id,
+      pactId: pact.pactId,
+      label: safeText(query),
+    });
+
+    await ctx.reply({
+      embeds: [
+        successEmbed({
+          description: ctx.t("collection.ascend_success", {
+            entity: safeText(res.entityName),
+            from: t(EDITION_LABEL[res.fromEdition], ctx.locale),
+            to: t(EDITION_LABEL[res.toEdition], ctx.locale),
+            cost: formatNumber(res.cost, ctx.locale),
+            balance: formatNumber(res.newBalance, ctx.locale),
+            baseAether: formatNumber(res.newBaseAether, ctx.locale),
+          }),
+          footer: false,
+        }),
+      ],
+    });
+  },
+};
+
+// ---------------------------------------------------------------------------
 // Exportacao
 // ---------------------------------------------------------------------------
 
@@ -1407,6 +1461,7 @@ export const commands: AnyCommand[] = [
   changeimgCommand,
   embedcolorCommand,
   sortmarryCommand,
+  ascendCommand,
 ];
 
 /**

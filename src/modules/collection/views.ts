@@ -219,13 +219,14 @@ export interface BuildInfoActionRowsOptions {
   currentImageIndex: number;
   userId: string;
   locale: string;
+  ownedPactId?: number;
 }
 
 export function buildInfoActionRows(opts: BuildInfoActionRowsOptions): ActionRowBuilder<ButtonBuilder>[] {
   const rows: ActionRowBuilder<ButtonBuilder>[] = [];
-  const { entityId, editions, currentEditionIndex, images, currentImageIndex, userId, locale } = opts;
+  const { entityId, editions, currentEditionIndex, images, currentImageIndex, userId, locale, ownedPactId } = opts;
 
-  // 1. Linha de Edições da Carta (Básica, Épica, Mítica, etc.)
+  // 1. Linha de Edições da Carta (Era I Básica, Era II Épica, Era III Mítica)
   if (editions.length > 1) {
     const edButtons: ButtonBuilder[] = [];
 
@@ -235,9 +236,9 @@ export function buildInfoActionRows(opts: BuildInfoActionRowsOptions): ActionRow
         const ed = editions[i]!;
         const isCurrent = ed.id === entityId || i === currentEditionIndex;
         let shortLabel = t(EDITION_LABEL[ed.edition], locale);
-        if (ed.edition === "BASIC") shortLabel = "🔹 Básica";
-        else if (ed.edition === "EPIC") shortLabel = "⭐ Épica";
-        else if (ed.edition === "MYTHIC") shortLabel = "👑 Mítica";
+        if (ed.edition === "BASIC") shortLabel = "🔹 Era I: Início";
+        else if (ed.edition === "EPIC") shortLabel = "⭐ Era II: O Auge";
+        else if (ed.edition === "MYTHIC") shortLabel = "👑 Era III: Apogeu (1/1)";
 
         if (ed.owned) shortLabel += " ✅";
 
@@ -247,6 +248,20 @@ export function buildInfoActionRows(opts: BuildInfoActionRowsOptions): ActionRow
             .setLabel(shortLabel)
             .setStyle(isCurrent ? ButtonStyle.Primary : ed.owned ? ButtonStyle.Success : ButtonStyle.Secondary)
             .setDisabled(isCurrent)
+        );
+      }
+
+      // Se o jogador é dono desta carta e há próxima Era disponível, adiciona botão de Ascensão de Era
+      const curEd = editions[currentEditionIndex];
+      const nextEd = editions[currentEditionIndex + 1];
+      if (ownedPactId && curEd && curEd.owned && nextEd && !nextEd.owned && edButtons.length < 5) {
+        const costLabel = nextEd.edition === "EPIC" ? "15k" : "75k";
+        const targetLabel = nextEd.edition === "EPIC" ? "Era II" : "Era III";
+        edButtons.push(
+          new ButtonBuilder()
+            .setCustomId(encodeCustomId(COLLECTION_NAMESPACE, "im_asc", ownedPactId, entityId, userId))
+            .setLabel(`⚡ Evoluir p/ ${targetLabel} (${costLabel} 💠)`)
+            .setStyle(ButtonStyle.Success)
         );
       }
     } else {

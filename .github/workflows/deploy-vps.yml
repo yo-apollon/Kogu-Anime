@@ -1,0 +1,43 @@
+name: Deploy to Oracle Cloud VPS
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "locales/**"
+      - "package.json"
+      - "package-lock.json"
+
+concurrency:
+  group: "deploy-vps"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy Kogu to VPS (if secret configured)
+    runs-on: ubuntu-latest
+    # Executa automaticamente apenas quando a chave SSH estiver configurada nos Secrets do repositório
+    if: ${{ secrets.VPS_SSH_KEY != '' }}
+    steps:
+      - name: Deploy via SSH to Oracle Cloud VPS
+        env:
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+          VPS_HOST: ${{ secrets.VPS_HOST || '129.148.63.115' }}
+          VPS_USER: ${{ secrets.VPS_USER || 'ubuntu' }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$VPS_SSH_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+          ssh -i ~/.ssh/id_rsa "$VPS_USER@$VPS_HOST" << 'EOF'
+            set -e
+            cd /home/ubuntu/arqon
+            git fetch origin main
+            git reset --hard origin/main
+            npm install --no-audit --no-fund
+            npm run build
+            pm2 restart kogu
+            pm2 save
+          EOF

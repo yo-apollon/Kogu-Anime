@@ -36,6 +36,7 @@ const svc = vi.hoisted(() => ({
   dissolveOwnPact: vi.fn(),
   resolveEditionForInfo: vi.fn(),
   getEntityImages: vi.fn(),
+  ascendEntityEra: vi.fn(),
 }));
 vi.mock("../../../src/modules/collection/service.js", async (importOriginal) => ({
   ...(await importOriginal<typeof import("../../../src/modules/collection/service.js")>()),
@@ -223,6 +224,10 @@ describe("registro: todo alias do messageHandler legado resolve", () => {
     ["nota", "note"],
     ["alias", "alias"],
     ["alias2", "alias"],
+    // $evoluir $ascend $era
+    ["evoluir", "evoluir"],
+    ["ascend", "evoluir"],
+    ["era", "evoluir"],
   ];
 
   it.each(table)("%s -> %s", (token, name) => {
@@ -246,6 +251,7 @@ describe("registro: todo alias do messageHandler legado resolve", () => {
         "custompic",
         "dissolve",
         "embedcolor",
+        "evoluir",
         "firstmarry",
         "give",
         "info",
@@ -270,6 +276,7 @@ describe("slash: payload valido", () => {
         "custompic",
         "dissolve",
         "embedcolor",
+        "evoluir",
         "firstmarry",
         "give",
         "info",
@@ -992,5 +999,28 @@ describe("$note / $alias / $alias2", () => {
     expect(svc.setPactCustomImage).toHaveBeenLastCalledWith(
       expect.objectContaining({ pactId: 55, imageUrl: null })
     );
+  });
+
+  it("$evoluir / $ascend evolui a Era da carta no Panteao", async () => {
+    svc.findOwnPact.mockResolvedValue(ownPact());
+    svc.ascendEntityEra.mockResolvedValue({
+      pactId: 55,
+      oldEntityId: 7,
+      newEntityId: 8,
+      entityName: "Zero Two",
+      fromEdition: "BASIC",
+      toEdition: "EPIC",
+      toTier: "EPIC",
+      cost: 15000,
+      newBalance: 5000,
+      newBaseAether: 5500,
+    });
+
+    const m = await run("$evoluir Zero Two");
+    expect(svc.ascendEntityEra).toHaveBeenLastCalledWith(
+      expect.objectContaining({ guildId: "g1", userId: ME, pactId: 55 })
+    );
+    expect(embedText(payloadOf(m))).toContain("ASCENSÃO DE ERA CONCLUÍDA");
+    expect(embedText(payloadOf(m))).toContain("Edição Épica");
   });
 });

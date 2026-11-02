@@ -192,6 +192,11 @@
     "custompic_invalid_url": "❌ The provided URL is not a valid image (HTTPS, PNG/JPG/WebP/GIF up to 8 MB).",
     "custompic_success": "✨ Custom art for **{entity}** updated successfully!",
     "custompic_removed": "🔄 Custom art for **{entity}** removed. The card has been reset to its default artwork!",
+    "ascend_usage": "⚡ Usage: `{prefix}ascend <character>` (or `{prefix}evoluir <character>`)\nAscends a card in your Pantheon from **Era I (Basic)** to **Era II (Epic — 15,000 Aether)** or from **Era II (Epic)** to **Era III (Mythic — 75,000 Aether)**, preserving your Awakening Seals and Variant!",
+    "ascend_no_editions": "⚠️ **{entity}** does not have additional evolution Eras available in the catalog.",
+    "ascend_already_mythic": "👑 **{entity}** has already reached the **Supreme Era III (Mythic Edition 1/1)**!",
+    "ascend_target_taken": "⚡ The **{edition}** version of **{entity}** is already bound in this server!",
+    "ascend_success": "🌟 **ERA ASCENSION COMPLETE!**\nYour card **{entity}** evolved from **{from}** to **{to}**!\n💠 Cost: **-{cost} Aether** (Remaining balance: **{balance} Aether**)\n✨ New Base Aether: **{baseAether} Aether**",
     "slash": {
       "user": "Player whose Pantheon to show.",
       "sort": "Sort order.",

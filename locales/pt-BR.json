@@ -192,6 +192,11 @@
     "custompic_invalid_url": "❌ O link fornecido não é uma imagem válida (HTTPS, PNG/JPG/WebP/GIF até 8 MB).",
     "custompic_success": "✨ Imagem personalizada de **{entity}** atualizada com sucesso!",
     "custompic_removed": "🔄 Imagem personalizada de **{entity}** removida. A carta voltou à arte padrão original!",
+    "ascend_usage": "⚡ Uso: `{prefix}evoluir <personagem>` (ou `{prefix}ascend <personagem>`)\nEvolui uma carta do seu Panteão da **Era I (Básica)** para **Era II (Épica — 15.000 Éter)** ou da **Era II (Épica)** para **Era III (Mítica — 75.000 Éter)**, preservando seus Selos de Despertar e Variante!",
+    "ascend_no_editions": "⚠️ **{entity}** não possui Eras de evolução adicionais disponíveis no catálogo.",
+    "ascend_already_mythic": "👑 **{entity}** já atingiu a **Era III Suprema (Edição Mítica 1/1)**!",
+    "ascend_target_taken": "⚡ A versão **{edition}** de **{entity}** já pertence a um invocador neste servidor!",
+    "ascend_success": "🌟 **ASCENSÃO DE ERA CONCLUÍDA!**\nSua carta **{entity}** evoluiu da **{from}** para a **{to}**!\n💠 Investimento: **-{cost} Éter** (Saldo restante: **{balance} Éter**)\n✨ Novo Éter Base da Carta: **{baseAether} Éter**",
     "slash": {
       "user": "Jogador cujo Panteão será exibido.",
       "sort": "Critério de ordenação.",
