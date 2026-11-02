@@ -126,23 +126,28 @@ async function syncDatabaseEditions(): Promise<{ dbUpdatedImages: number; dbUpda
     // 2. Para personagens que possuem outra carta ativa com mesmo name_normalized e URL diferente, vincula à edição EPIC/MYTHIC
     const imgRes = await sql`
       UPDATE entity_images ei
-      SET url = alt.url
-      FROM entities e
-      JOIN entities p ON p.id = e.parent_id
-      JOIN LATERAL (
-        SELECT i2.url
-        FROM entities e2
-        JOIN entity_images i2 ON i2.entity_id = e2.id AND i2.is_primary = true AND i2.status = 'ACTIVE'
-        WHERE e2.name_normalized = p.name_normalized
-          AND e2.id <> p.id
-          AND e2.parent_id IS NULL
-          AND i2.url <> ei.url
-        ORDER BY e2.popularity_score DESC, e2.id ASC
-        LIMIT 1
-      ) alt ON true
-      WHERE ei.entity_id = e.id
+      SET url = sub.alt_url
+      FROM (
+        SELECT e.id AS target_entity_id, alt.url AS alt_url
+        FROM entities e
+        JOIN entities p ON p.id = e.parent_id
+        JOIN entity_images pi ON pi.entity_id = p.id AND pi.is_primary = true AND pi.status = 'ACTIVE'
+        JOIN LATERAL (
+          SELECT i2.url
+          FROM entities e2
+          JOIN entity_images i2 ON i2.entity_id = e2.id AND i2.is_primary = true AND i2.status = 'ACTIVE'
+          WHERE e2.name_normalized = p.name_normalized
+            AND e2.id <> p.id
+            AND e2.parent_id IS NULL
+            AND i2.url <> pi.url
+          ORDER BY e2.popularity_score DESC, e2.id ASC
+          LIMIT 1
+        ) alt ON true
+        WHERE e.edition IN ('EPIC', 'MYTHIC')
+      ) sub
+      WHERE ei.entity_id = sub.target_entity_id
         AND ei.is_primary = true
-        AND e.edition IN ('EPIC', 'MYTHIC')
+        AND ei.url <> sub.alt_url
     `;
 
     return {
