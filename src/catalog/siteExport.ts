@@ -17,7 +17,7 @@ export const CATALOG_FILE = "catalog.json";
 export const META_FILE = "catalog.meta.json";
 
 /** Raiz publica das fotos proprias; o catalogo antigo as guardava como `./assets/cards/x.jpg`. */
-const OWN_ASSET_BASE = "https://yo-apollon.github.io/kogu/";
+const OWN_ASSET_BASE = "https://yo-apollon.github.io/Kogu-Anime/";
 
 export interface SiteCard {
   id: number;

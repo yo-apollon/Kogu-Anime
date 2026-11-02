@@ -122,7 +122,7 @@ export async function seedPopCultureAndSports(dbUrl = DATABASE_URL) {
 
       nextRank++;
       const rollWeight = TIER_WEIGHT[item.tier];
-      const hostedImg = `https://yo-apollon.github.io/kogu/assets/cards/${item.slug}.jpg`;
+      const hostedImg = `https://yo-apollon.github.io/Kogu-Anime/assets/cards/${item.slug}.jpg`;
 
       // 4. Entidade
       const [ent] = await tx<{ id: number }[]>`

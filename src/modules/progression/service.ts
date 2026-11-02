@@ -642,7 +642,7 @@ export async function runArenaBattle(
       spd: 48,
       hp: 200,
       keys: 1,
-      imageUrl: "https://yo-apollon.github.io/kogu/assets/kogu_avatar_animated.gif",
+      imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/kogu_avatar_animated.gif",
     };
 
   const maxHpA = fighterA.hp;

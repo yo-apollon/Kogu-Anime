@@ -38,7 +38,7 @@ const PLACEHOLDER_PATHS: readonly RegExp[] = [
 
 /** Pasta das fotos proprias do catalogo (GitHub Pages) e o caminho relativo usado em docs/catalog.json. */
 const OWN_HOST = "yo-apollon.github.io";
-const OWN_PATH = /^\/kogu\/assets\/cards\//i;
+const OWN_PATH = /^\/(?:kogu|kogu-anime)\/assets\/cards\//i;
 const OWN_RELATIVE = /^\.?\/?assets\/cards\//i;
 
 /** Tamanhos TMDB de perfil de pessoa (foto de pessoa); os demais sao poster/backdrop. */

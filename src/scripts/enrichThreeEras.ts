@@ -34,6 +34,25 @@ export async function enrichCatalogFile(catalogPath = CATALOG_PATH, metaPath = M
   const raw = await fs.readFile(catalogPath, "utf8");
   const cards = JSON.parse(raw) as SiteCard[];
 
+  // Normaliza URLs legadas do repositorio antigo (/kogu/ -> /Kogu-Anime/)
+  for (const c of cards) {
+    if (c.imageUrl?.startsWith("https://yo-apollon.github.io/kogu/")) {
+      c.imageUrl = c.imageUrl.replace(
+        "https://yo-apollon.github.io/kogu/",
+        "https://yo-apollon.github.io/Kogu-Anime/"
+      );
+    }
+    if (c.art.mode === "IMAGE" && c.art.url.startsWith("https://yo-apollon.github.io/kogu/")) {
+      c.art = {
+        mode: "IMAGE",
+        url: c.art.url.replace(
+          "https://yo-apollon.github.io/kogu/",
+          "https://yo-apollon.github.io/Kogu-Anime/"
+        ),
+      };
+    }
+  }
+
   // Agrupa todas as URLs de arte distintas por nome base normalizado
   const imagesByNormName = new Map<string, string[]>();
   for (const c of cards) {
@@ -109,6 +128,13 @@ async function syncDatabaseEditions(): Promise<{ dbUpdatedImages: number; dbUpda
   const postgres = (await import("postgres")).default;
   const sql = postgres(dbUrl, { max: 1, onnotice: () => {} });
   try {
+    // 0. Atualiza URLs legadas (/kogu/ -> /Kogu-Anime/) na tabela entity_images
+    await sql`
+      UPDATE entity_images
+      SET url = REPLACE(url, 'https://yo-apollon.github.io/kogu/', 'https://yo-apollon.github.io/Kogu-Anime/')
+      WHERE url LIKE 'https://yo-apollon.github.io/kogu/%'
+    `;
+
     // 1. Atualiza descrições de Era nas edições EPIC e MYTHIC que ainda têm a mesma descrição da BASIC
     const descRes = await sql`
       UPDATE entities e

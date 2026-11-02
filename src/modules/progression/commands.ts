@@ -1439,8 +1439,9 @@ export const inviteCommand: AnyCommand = {
       .setDescription(
         `Traga o **Kogu** para o seu servidor Discord e desbloqueie o sistema completo de Gacha, Trocas, Arena RPG e Catálogo Multiverso!\n\n` +
           `🔗 **[Adicionar o Kogu ao seu Servidor](${inviteUrl})**\n` +
-          `📜 **[Termos de Serviço (ToS)](https://github.com/yo-apollon/kogu/blob/main/docs/TERMS.md)**\n` +
-          `🔒 **[Política de Privacidade](https://github.com/yo-apollon/kogu/blob/main/docs/PRIVACY.md)**`
+          `🌐 **[Portal & Catálogo Web](https://yo-apollon.github.io/Kogu-Anime/)**\n` +
+          `📜 **[Termos de Serviço (ToS)](https://yo-apollon.github.io/Kogu-Anime/terms.html)**\n` +
+          `🔒 **[Política de Privacidade](https://yo-apollon.github.io/Kogu-Anime/privacy.html)**`
       );
 
     await ctx.reply({ embeds: [embed] });

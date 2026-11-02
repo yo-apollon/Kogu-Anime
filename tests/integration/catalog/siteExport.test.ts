@@ -144,7 +144,7 @@ describe("site export (com nicho e prestigio)", () => {
     expect(hero.art).toEqual({ mode: "IMAGE", url: "https://s4.anilist.co/file/anilistcdn/character/large/b1-x.png" });
     expect(hero.imageUrl).toBe(hero.art.mode === "IMAGE" ? hero.art.url : null);
     const own = bySlug(cards, "own-photo")!;
-    expect(own.art).toEqual({ mode: "IMAGE", url: "https://yo-apollon.github.io/kogu/assets/cards/own-photo.jpg" });
+    expect(own.art).toEqual({ mode: "IMAGE", url: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/own-photo.jpg" });
   });
 
   it("campos novos: nicho, prestigio, edicao, parent, supply, aliases, stats", () => {

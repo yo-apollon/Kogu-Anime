@@ -34,6 +34,11 @@ export const DEFAULT_POLICIES: readonly RemotePolicy[] = [
     files: ["docs/catalog.json", "docs/catalog.meta.json", "docs/index.html"],
   },
   {
+    remote: "github.com/yo-apollon/kogu-anime",
+    catalogDir: "docs",
+    files: ["docs/catalog.json", "docs/catalog.meta.json", "docs/index.html"],
+  },
+  {
     remote: "github.com/yo-apollon/kovu-anime",
     catalogDir: "public/assets/kogu",
     files: ["public/assets/kogu/catalog.json", "public/assets/kogu/catalog.meta.json", "public/kogu-bot.js"],

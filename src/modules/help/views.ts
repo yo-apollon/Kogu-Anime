@@ -21,10 +21,10 @@ const FOOTER_MAX = 2048;
 const SELECT_DESCRIPTION_MAX = 100;
 
 export const KOGU_AVATAR_URL =
-  "https://yo-apollon.github.io/kogu/assets/kogu_avatar_animated.gif";
-export const KOGU_PORTAL_URL = "https://yo-apollon.github.io/kogu/";
-export const KOGU_TERMS_URL = "https://yo-apollon.github.io/kogu/terms.html";
-export const KOGU_PRIVACY_URL = "https://yo-apollon.github.io/kogu/privacy.html";
+  "https://yo-apollon.github.io/Kogu-Anime/assets/kogu_avatar_animated.gif";
+export const KOGU_PORTAL_URL = "https://yo-apollon.github.io/Kogu-Anime/";
+export const KOGU_TERMS_URL = "https://yo-apollon.github.io/Kogu-Anime/terms.html";
+export const KOGU_PRIVACY_URL = "https://yo-apollon.github.io/Kogu-Anime/privacy.html";
 export const KOGU_INVITE_URL =
   "https://discord.com/oauth2/authorize?client_id=1561074418250416178&permissions=412317240384&scope=bot%20applications.commands";
 
@@ -52,12 +52,12 @@ export function helpButtonsRow(locale: Locale): ActionRowBuilder<ButtonBuilder> 
     new ButtonBuilder()
       .setLabel(isPt ? "Simulador Torre" : "Tower Simulator")
       .setStyle(ButtonStyle.Link)
-      .setURL("https://yo-apollon.github.io/kogu/#viewBtn-tower")
+      .setURL("https://yo-apollon.github.io/Kogu-Anime/#viewBtn-tower")
       .setEmoji("🗼"),
     new ButtonBuilder()
       .setLabel(isPt ? "Guia & Comandos" : "Guide & Commands")
       .setStyle(ButtonStyle.Link)
-      .setURL("https://yo-apollon.github.io/kogu/#viewBtn-commands")
+      .setURL("https://yo-apollon.github.io/Kogu-Anime/#viewBtn-commands")
       .setEmoji("📖"),
     new ButtonBuilder()
       .setLabel(isPt ? "Convidar Kogu" : "Invite Kogu")
@@ -90,12 +90,12 @@ export function overviewEmbed(groups: readonly HelpGroup[], locale: Locale, pref
     ? `### 🌌 Bem-vindo ao Multiverso Kogu!\n` +
       `Explore mais de **7.379 cartas ativas**, colecione heróis, vilões e lendas de **Animes, Games, Séries, Filmes, Esportes e Música**, dispute o ranking global do Panteão e vença as 12 Amarras da **Torre de Éter**!\n\n` +
       `> 💡 **Guia Rápido:** ${msg(locale, "help.overview")}\n` +
-      `> 🌐 **Catálogo & Simuladores:** [yo-apollon.github.io/kogu](${KOGU_PORTAL_URL})\n` +
+      `> 🌐 **Catálogo & Simuladores:** [yo-apollon.github.io/Kogu-Anime](${KOGU_PORTAL_URL})\n` +
       `> Navegue pelo menu interativo abaixo ou acesse os links oficiais:`
     : `### 🌌 Welcome to the Kogu Multiverse!\n` +
       `Explore over **7,379 active cards**, collect heroes, villains and legends across **Anime, Gaming, Cinema, Sports and Music**, climb the Pantheon global rankings, and conquer the 12 floors of the **Aether Tower**!\n\n` +
       `> 💡 **Quick Guide:** ${msg(locale, "help.overview")}\n` +
-      `> 🌐 **Web Catalog & Simulators:** [yo-apollon.github.io/kogu](${KOGU_PORTAL_URL})\n` +
+      `> 🌐 **Web Catalog & Simulators:** [yo-apollon.github.io/Kogu-Anime](${KOGU_PORTAL_URL})\n` +
       `> Browse categories via the interactive menu below or click official links:`;
 
   const embed = baseEmbed({
