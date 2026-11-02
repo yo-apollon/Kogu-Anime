@@ -3234,7 +3234,7 @@
       editions.forEach(ed => {
         const btn = document.createElement('button');
         const edName = (ed.edition || 'BASIC').toUpperCase();
-        const label = edName === 'MYTHIC' ? '👑 Edição Mítica (1/1)' : (edName === 'EPIC' ? '⭐ Edição Épica' : '🔹 Edição Básica');
+        const label = edName === 'MYTHIC' ? '👑 Era III: Apogeu Lendário (1/1)' : (edName === 'EPIC' ? '⭐ Era II: O Auge (20-30 anos)' : '🔹 Era I: O Início / Juventude');
         btn.className = `modal-edition-tab ${ed.id === activeId ? 'active' : ''}`;
         btn.innerHTML = `${label} <span style="font-size:0.75rem; opacity:0.8;">(💎 ${(ed.baseAether || 1300).toLocaleString('pt-BR')})</span>`;
         btn.onclick = (e) => {
@@ -3265,6 +3265,22 @@
       document.getElementById('modalAether').textContent = `💎 ${(c.baseAether || 1300).toLocaleString('pt-BR')} Éter`;
       document.getElementById('modalRank').textContent = `#${c.popularityRank || 1} Popularidade`;
       document.getElementById('modalImg').src = c.imageUrl;
+      const modalImgEl = document.getElementById('modalImg');
+      if (modalImgEl) {
+        if (edName === 'MYTHIC' || tierName === 'MYTHIC') {
+          modalImgEl.style.filter = 'drop-shadow(0 0 16px rgba(250, 204, 21, 0.6)) contrast(1.12) brightness(1.08) saturate(1.2)';
+          modalImgEl.style.border = '2px solid rgba(250, 204, 21, 0.8)';
+          modalImgEl.style.borderRadius = '8px';
+        } else if (edName === 'EPIC' || tierName === 'EPIC') {
+          modalImgEl.style.filter = 'drop-shadow(0 0 12px rgba(168, 85, 247, 0.5)) contrast(1.08) saturate(1.15)';
+          modalImgEl.style.border = '2px solid rgba(168, 85, 247, 0.7)';
+          modalImgEl.style.borderRadius = '8px';
+        } else {
+          modalImgEl.style.filter = 'none';
+          modalImgEl.style.border = '1px solid rgba(255, 255, 255, 0.1)';
+          modalImgEl.style.borderRadius = '8px';
+        }
+      }
       document.getElementById('modalCmdSnippet').textContent = `$im ${c.name}`;
 
       const atk = c.stats?.atk ?? (60 + ((c.id * 17) % 40));
