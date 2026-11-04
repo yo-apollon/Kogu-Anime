@@ -41,6 +41,8 @@ const settings: GuildSettings = {
   pactLimit: 500,
   releaseBoostEnabled: false,
   allowAdult: true,
+  channelMode: "ALL",
+  allowedChannels: [],
 };
 
 const frieren: DisableTarget = { kind: "series", id: 1, name: "Sousou no Frieren" };
@@ -193,6 +195,7 @@ describe("painel /settings", () => {
     const sections = buildSettingsSections(deps());
     expect(sections.map((s) => s.id)).toEqual([
       "overview",
+      "channels",
       "rolls",
       "timers",
       "locale",

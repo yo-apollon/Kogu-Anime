@@ -26,8 +26,10 @@ import { getKV } from "../../infra/redis/client.js";
 import { UserError } from "../../lib/errors.js";
 import { createPaginator } from "../../ui/components/paginator.js";
 import { createPanel } from "../../ui/components/panel.js";
+import { infoEmbed, successEmbed } from "../../ui/embeds.js";
 import { escapeMarkdown } from "../../ui/format.js";
 import {
+  addGuildChannel,
   applyGuildSetting,
   assertCanManageServerWide,
   autocompleteDisabled,
@@ -38,7 +40,9 @@ import {
   findDisabledEntry,
   getGuildSettings,
   listDisabled,
+  removeGuildChannel,
   resolveTarget,
+  setGuildChannels,
   SETTING_KEYS,
   SETTING_LIMITS,
   TARGET_AUTOCOMPLETE_LIMIT,
@@ -55,6 +59,7 @@ import {
   settingAppliedEmbed,
   SLASH_TEXT,
   targetChoice,
+  tr,
 } from "./views.js";
 
 /** Gerenciar Servidor (Administrador tambem passa: `has` considera o bit de admin). */
@@ -595,8 +600,225 @@ export const personalrareCommand: CommandDefinition<typeof personalrareArgs> = {
   },
 };
 
+// ---------------------------------------------------------------------------
+// $channel / $channels / $canal / $canais e /channel
+// ---------------------------------------------------------------------------
+
+function extractChannelId(token: string | undefined): string | undefined {
+  if (!token) return undefined;
+  const match = token.match(/^<#(\d+)>$/) || token.match(/^(\d{17,20})$/);
+  return match ? match[1] : undefined;
+}
+
+export const channelArgsSchema = z.object({
+  action: z.enum(["all", "single", "add", "remove", "list"]).default("list"),
+  channelId: z.string().optional(),
+});
+export type ChannelArgs = z.infer<typeof channelArgsSchema>;
+
+export function parseChannelTokens(tokens: string[]): ChannelArgs {
+  if (tokens.length === 0) return { action: "list" };
+  const sub = tokens[0]!.toLowerCase();
+  if (sub === "all" || sub === "todos") return { action: "all" };
+  if (sub === "single" || sub === "unico" || sub === "um") {
+    return { action: "single", channelId: extractChannelId(tokens[1]) };
+  }
+  if (sub === "add" || sub === "adicionar") {
+    return { action: "add", channelId: extractChannelId(tokens[1]) };
+  }
+  if (sub === "remove" || sub === "rem" || sub === "del" || sub === "remover") {
+    return { action: "remove", channelId: extractChannelId(tokens[1]) };
+  }
+  if (sub === "list" || sub === "status" || sub === "lista" || sub === "ver") {
+    return { action: "list" };
+  }
+  const directId = extractChannelId(sub);
+  if (directId) {
+    return { action: "single", channelId: directId };
+  }
+  throw new UserError("config.channel_invalid_args");
+}
+
+export async function runChannel(ctx: CommandContext<ChannelArgs>): Promise<void> {
+  const { action, channelId } = ctx.args;
+  const currentChannelId = ctx.message?.channelId ?? ctx.interaction?.channelId;
+  const targetChannelId = channelId || currentChannelId;
+  const p = ctx.guildConfig.prefix;
+
+  switch (action) {
+    case "all": {
+      await setGuildChannels(ctx.guild.id, "ALL", []);
+      await ctx.reply({
+        embeds: [successEmbed(tr(ctx.locale, "config.channel_mode_all_ok"))],
+      });
+      return;
+    }
+    case "single": {
+      if (!targetChannelId) {
+        throw new UserError("config.channel_single_missing", { prefix: p });
+      }
+      await setGuildChannels(ctx.guild.id, "SINGLE", [targetChannelId]);
+      await ctx.reply({
+        embeds: [
+          successEmbed(
+            tr(ctx.locale, "config.channel_mode_single_ok", { channel: targetChannelId })
+          ),
+        ],
+      });
+      return;
+    }
+    case "add": {
+      if (!targetChannelId) {
+        throw new UserError("config.channel_invalid_args", { prefix: p });
+      }
+      const res = await addGuildChannel(ctx.guild.id, targetChannelId);
+      await ctx.reply({
+        embeds: [
+          successEmbed(
+            tr(ctx.locale, "config.channel_add_ok", {
+              channel: targetChannelId,
+              count: res.channels.length,
+              channels: res.channels.map((id) => `<#${id}>`).join(", "),
+            })
+          ),
+        ],
+      });
+      return;
+    }
+    case "remove": {
+      if (!targetChannelId) {
+        throw new UserError("config.channel_invalid_args", { prefix: p });
+      }
+      const res = await removeGuildChannel(ctx.guild.id, targetChannelId);
+      await ctx.reply({
+        embeds: [
+          successEmbed(
+            tr(ctx.locale, "config.channel_remove_ok", {
+              channel: targetChannelId,
+              count: res.channels.length,
+              channels:
+                res.channels.length > 0
+                  ? res.channels.map((id) => `<#${id}>`).join(", ")
+                  : "Todos os chats (ALL)",
+            })
+          ),
+        ],
+      });
+      return;
+    }
+    case "list":
+    default: {
+      const s = await getGuildSettings(ctx.guild.id);
+      let statusText: string;
+      if (s.channelMode === "SINGLE" && s.allowedChannels.length > 0) {
+        statusText = tr(ctx.locale, "config.settings_channels_single", {
+          channel: s.allowedChannels[0]!,
+        });
+      } else if (s.channelMode === "SELECTED" && s.allowedChannels.length > 0) {
+        statusText = tr(ctx.locale, "config.settings_channels_selected", {
+          count: s.allowedChannels.length,
+          channels: s.allowedChannels.map((id) => `<#${id}>`).join(", "),
+        });
+      } else {
+        statusText = tr(ctx.locale, "config.settings_channels_all");
+      }
+
+      await ctx.reply({
+        embeds: [
+          infoEmbed({
+            title: tr(ctx.locale, "config.settings_channels_title"),
+            description: tr(ctx.locale, "config.channel_status", { status: statusText }),
+            footer: `${p}channel all | single #canal | add #canal | remove #canal`,
+            icon: false,
+          }),
+        ],
+      });
+      return;
+    }
+  }
+}
+
+export function buildChannelSlash(): SlashCommandBuilder {
+  return new SlashCommandBuilder()
+    .setName("channel")
+    .setDescription("Configura os canais onde o bot responderá.")
+    .setDescriptionLocalizations({ "en-US": "Configures allowed channels for the bot." })
+    .addSubcommand((sub) =>
+      sub
+        .setName("all")
+        .setDescription("Libera o bot para responder em todos os chats.")
+        .setDescriptionLocalizations({ "en-US": "Allows bot to respond in all channels." })
+    )
+    .addSubcommand((sub) =>
+      sub
+        .setName("single")
+        .setDescription("Restringe o bot para responder somente em um chat.")
+        .setDescriptionLocalizations({
+          "en-US": "Restricts bot to respond in a single channel.",
+        })
+        .addChannelOption((o) =>
+          o
+            .setName("channel")
+            .setDescription("Canal onde o bot responderá (padrão: canal atual).")
+            .setDescriptionLocalizations({
+              "en-US": "Channel where bot will respond (default: current).",
+            })
+        )
+    )
+    .addSubcommand((sub) =>
+      sub
+        .setName("add")
+        .setDescription("Adiciona um chat à lista de canais permitidos.")
+        .setDescriptionLocalizations({ "en-US": "Adds a channel to allowed channels." })
+        .addChannelOption((o) =>
+          o
+            .setName("channel")
+            .setDescription("Canal a ser adicionado.")
+            .setDescriptionLocalizations({ "en-US": "Channel to add." })
+            .setRequired(true)
+        )
+    )
+    .addSubcommand((sub) =>
+      sub
+        .setName("remove")
+        .setDescription("Remove um chat da lista de canais permitidos.")
+        .setDescriptionLocalizations({ "en-US": "Removes a channel from allowed channels." })
+        .addChannelOption((o) =>
+          o
+            .setName("channel")
+            .setDescription("Canal a ser removido.")
+            .setDescriptionLocalizations({ "en-US": "Channel to remove." })
+            .setRequired(true)
+        )
+    )
+    .addSubcommand((sub) =>
+      sub
+        .setName("list")
+        .setDescription("Exibe o modo e canais configurados.")
+        .setDescriptionLocalizations({ "en-US": "Displays current mode and allowed channels." })
+    ) as SlashCommandBuilder;
+}
+
+export const channelCommand: CommandDefinition<typeof channelArgsSchema> = {
+  name: "channel",
+  aliases: ["channels", "canal", "canais"],
+  category: "config",
+  descriptionKey: "help.commands.channel",
+  args: channelArgsSchema,
+  parseArgs: parseChannelTokens,
+  slash: buildChannelSlash,
+  slashArgs: (interaction: ChatInputCommandInteraction) => ({
+    action: interaction.options.getSubcommand() as ChannelArgs["action"],
+    channelId: interaction.options.getChannel("channel")?.id,
+  }),
+  permissions: MANAGE_GUILD,
+  cooldownMs: 3_000,
+  execute: guarded<ChannelArgs>(runChannel),
+};
+
 export const configCommands: AnyCommand[] = [
   settingsCommand,
+  channelCommand,
   setRollsCommand,
   setTimerCommand,
   setClaimCommand,

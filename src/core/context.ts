@@ -102,7 +102,7 @@ export function createPrefixResponder(message: Message): Responder {
     async defer() {
       try {
         const channel = message.channel as unknown as { sendTyping?: () => Promise<void> };
-        await channel.sendTyping?.();
+        void channel.sendTyping?.().catch(() => {});
       } catch {
         // Indicador "digitando" e cosmetico.
       }

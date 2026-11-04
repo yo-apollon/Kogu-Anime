@@ -1,4 +1,5 @@
-import { boolean, integer, pgTable, text, timestamp } from "drizzle-orm/pg-core";
+import { sql } from "drizzle-orm";
+import { boolean, integer, jsonb, pgTable, text, timestamp } from "drizzle-orm/pg-core";
 
 export const guilds = pgTable("guilds", {
   id: text("id").primaryKey(), // Discord guild ID
@@ -21,6 +22,9 @@ export const guilds = pgTable("guilds", {
   serverAetherScrap: integer("server_aether_scrap").notNull().default(0),
   releaseBoostEnabled: boolean("release_boost_enabled").notNull().default(true),
   allowAdult: boolean("allow_adult").notNull().default(false),
+  // Controle de canais: 'ALL' (todos), 'SINGLE' (um canal), 'SELECTED' (canais da lista)
+  channelMode: text("channel_mode").notNull().default("ALL"),
+  allowedChannels: jsonb("allowed_channels").$type<string[]>().notNull().default(sql`'[]'::jsonb`),
   // Metadados do Discord (sincronizados pelo bot) e controle de versao da config para a dashboard.
   name: text("name"),
   icon: text("icon"),

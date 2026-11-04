@@ -40,6 +40,11 @@ export interface GuildConfig {
   pactLimit: number;
   releaseBoostEnabled: boolean;
   allowAdult: boolean;
+  pactsPerWindow: number;
+  aetherSnipeProtectionLevel: number;
+  aetherSnipeProtectionSeconds: number;
+  channelMode: "ALL" | "SINGLE" | "SELECTED";
+  allowedChannels: string[];
 }
 
 export type ReplyPayload = string | (Omit<MessageCreateOptions, "reply"> & InteractionReplyOptions);

@@ -5,8 +5,9 @@
  * Resolve nome/alias em O(1) e, se falhar, tenta os `matcher`s de atalho (ver registry.ts).
  * Token desconhecido e ignorado em silencio (mensagens normais comecam com `$` as vezes).
  */
-import type { Message } from "discord.js";
+import { PermissionFlagsBits, type Message } from "discord.js";
 import { childLogger } from "../lib/logger.js";
+import { isChannelAllowed } from "../shared/guildSettings.js";
 import { createPrefixInvocation, type CommandPipeline } from "./context.js";
 import type { GuildConfigProvider } from "./middleware/guildConfig.js";
 import type { CommandRegistry } from "./registry.js";
@@ -56,6 +57,13 @@ export function createPrefixRouter(deps: PrefixRouterDeps): (message: Message) =
 
       const registration = deps.registry.resolve(parsed.name);
       if (!registration) return;
+
+      if (!isChannelAllowed(guildConfig, message.channelId)) {
+        const isConfigCommand = registration.cmd.category === "config";
+        const canBypass =
+          isConfigCommand && message.member?.permissions.has(PermissionFlagsBits.ManageGuild);
+        if (!canBypass) return;
+      }
 
       const invocation = createPrefixInvocation(
         message as Message<true>,

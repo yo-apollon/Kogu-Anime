@@ -74,6 +74,36 @@ export const TIER_TOP_PERCENT: Record<Exclude<EntityTier, "COMMON">, number> = {
   RARE: 0.4,
 };
 
+/**
+ * Prestigio por nicho (docs/raridade-por-nicho.md). O tier sai de limiares absolutos de prestigio
+ * (0..100), por familia: "fiction" (anime, jogos, cinema) e "people" (esporte, musica, criadores).
+ */
+export type PrestigeFamily = "fiction" | "people";
+
+/** Prestigio minimo de cada tier; abaixo do menor limiar a carta e COMMON. */
+export const PRESTIGE_THRESHOLDS: Record<PrestigeFamily, Record<Exclude<EntityTier, "COMMON">, number>> = {
+  fiction: { MYTHIC: 94, LEGENDARY: 82, EPIC: 66, RARE: 45 },
+  people: { MYTHIC: 95, LEGENDARY: 85, EPIC: 70, RARE: 50 },
+};
+
+/** Teto de MYTHIC por nicho grande: no maximo esta fracao das cartas do nicho, arredondada para cima. */
+export const MYTHIC_MAX_SHARE = 0.01;
+/** O teto percentual de MYTHIC so vale em nichos com pelo menos esta quantidade de cartas; nos menores vale so o limiar. */
+export const MYTHIC_CAP_MIN_NICHE_SIZE = 50;
+
+/** Pesos do prestigio computado de ficcao (somam 1): fama, popularidade da serie, historia. */
+export const FICTION_PRESTIGE_WEIGHTS = { fame: 0.4, series: 0.3, story: 0.3 } as const;
+
+/** Importancia na historia por papel (AniList: MAIN, SUPPORTING; outro ou ausente = sem papel). */
+export const FICTION_ROLE_WEIGHT = { MAIN: 1, SUPPORTING: 0.55, NONE: 0.4 } as const;
+/** Decaimento da posicao (por favoritos) na serie: 1 / (1 + decay * (pos - 1)). */
+export const FICTION_POSITION_DECAY = 0.35;
+/** Teto de prestigio de obra sem sinal confiavel (nenhum favorito na serie). */
+export const FICTION_NO_SIGNAL_CAP = 40;
+
+/** Expoente da curva do Eter dentro da faixa do tier quando a posicao vem do prestigio. */
+export const PRESTIGE_BAND_CURVE = 1.6;
+
 /** Chance acumulada por variante, avaliada de cima para baixo (em %). */
 export const VARIANT_CHANCE = {
   ASTRAL: 3,

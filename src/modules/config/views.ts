@@ -334,6 +334,25 @@ export function advancedField(locale: Locale, s: GuildSettings, inline = false):
   };
 }
 
+export function channelsField(locale: Locale, s: GuildSettings, inline = false): Field {
+  let val: string;
+  if (s.channelMode === "SINGLE" && s.allowedChannels.length > 0) {
+    val = tr(locale, "config.settings_channels_single", { channel: s.allowedChannels[0]! });
+  } else if (s.channelMode === "SELECTED" && s.allowedChannels.length > 0) {
+    val = tr(locale, "config.settings_channels_selected", {
+      count: s.allowedChannels.length,
+      channels: s.allowedChannels.map((id) => `<#${id}>`).join(", "),
+    });
+  } else {
+    val = tr(locale, "config.settings_channels_all");
+  }
+  return {
+    name: tr(locale, "config.settings_channels_title"),
+    value: val,
+    inline,
+  };
+}
+
 function settingsEmbed(locale: Locale, guildName: string, s: GuildSettings): EmbedBuilder {
   return infoEmbed({
     title: tr(locale, "config.settings_title", { guild: escapeMarkdown(guildName) }),
@@ -374,8 +393,10 @@ export function buildSettingsSections(deps: SettingsPanelDeps): PanelSection[] {
       rollsField(locale, s, true),
       timersField(locale, s, true),
       localeField(locale, s),
+      channelsField(locale, s),
       advancedField(locale, s),
     ]),
+    group("channels", tr(locale, "config.section_channels"), (s) => [channelsField(locale, s)]),
     group("rolls", tr(locale, "config.settings_rolls_title"), (s) => [rollsField(locale, s)]),
     group("timers", tr(locale, "config.settings_timers_title"), (s) => [timersField(locale, s)]),
     group("locale", tr(locale, "config.settings_locale_title"), (s) => [localeField(locale, s)]),

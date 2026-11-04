@@ -13,3 +13,9 @@ coverage/
 
 # artefatos de teste
 test-card.png
+
+# cache python e ide
+__pycache__/
+*.pyc
+.claude/
+

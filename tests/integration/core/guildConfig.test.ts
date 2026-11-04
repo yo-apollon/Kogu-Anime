@@ -1,4 +1,4 @@
-﻿import { mkdtemp, rm } from "node:fs/promises";
+import { mkdtemp, rm } from "node:fs/promises";
 import net from "node:net";
 import os from "node:os";
 import path from "node:path";
@@ -132,12 +132,17 @@ describe("guildConfig (Postgres + MemoryStore)", () => {
       rollIntervalMin: 60,
       resetOffsetMin: 0,
       claimIntervalMin: 180,
-      claimWindowSeconds: 45,
+      claimWindowSeconds: 120,
       snipeProtectionLevel: 0,
       snipeProtectionSeconds: 8,
       pactLimit: 8100,
       releaseBoostEnabled: true,
       allowAdult: false,
+      pactsPerWindow: 1,
+      aetherSnipeProtectionLevel: 0,
+      aetherSnipeProtectionSeconds: 8,
+      channelMode: "ALL",
+      allowedChannels: [],
     });
   });
 
@@ -163,6 +168,11 @@ describe("guildConfig (Postgres + MemoryStore)", () => {
       pactLimit: 100,
       releaseBoostEnabled: false,
       allowAdult: true,
+      pactsPerWindow: 1,
+      aetherSnipeProtectionLevel: 0,
+      aetherSnipeProtectionSeconds: 8,
+      channelMode: "ALL",
+      allowedChannels: [],
     });
   });
 

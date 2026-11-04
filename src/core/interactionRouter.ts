@@ -7,17 +7,19 @@
  *   reservados `pg`, `pn`, `cf` vao para os handlers do design system (src/ui/components).
  * Todo erro passa pelo errorBoundary (`reportError`): o usuario recebe o `errorId`, nunca a stack.
  */
-import type {
-  AutocompleteInteraction,
-  ChatInputCommandInteraction,
-  Interaction,
-  MessageComponentInteraction,
-  ModalSubmitInteraction,
+import {
+  PermissionFlagsBits,
+  type AutocompleteInteraction,
+  type ChatInputCommandInteraction,
+  type Interaction,
+  type MessageComponentInteraction,
+  type ModalSubmitInteraction,
 } from "discord.js";
 import { DEFAULT_LOCALE, type Locale } from "../config/constants.js";
 import type { KV } from "../infra/redis/kv.js";
 import { childLogger } from "../lib/logger.js";
 import { UserError } from "../lib/errors.js";
+import { isChannelAllowed } from "../shared/guildSettings.js";
 import { CONFIRM_NS, PAGINATOR_NS, PANEL_NS } from "../ui/components/ownership.js";
 import { handleConfirmInteraction } from "../ui/components/confirm.js";
 import { handlePaginatorInteraction } from "../ui/components/paginator.js";
@@ -105,6 +107,27 @@ export function createInteractionRouter(
       });
       return;
     }
+
+    const guildConfig = await deps.guildConfigs.get(interaction.guild.id);
+    if (!isChannelAllowed(guildConfig, interaction.channelId)) {
+      const isConfigCommand = command.category === "config";
+      const member = interaction.member;
+      const permissions = member?.permissions;
+      const hasPerm =
+        typeof permissions === "object" && permissions !== null && "has" in permissions
+          ? (permissions as { has: (p: bigint) => boolean }).has(PermissionFlagsBits.ManageGuild)
+          : false;
+      if (!isConfigCommand || !hasPerm) {
+        const allowedList = guildConfig.allowedChannels.map((id) => `<#${id}>`).join(", ");
+        await reportInteractionError(
+          new UserError("config.channel_not_allowed", { channels: allowedList || "#canal" }),
+          interaction,
+          { command: command.name }
+        );
+        return;
+      }
+    }
+
     await deps.pipeline(createSlashInvocation(interaction, command, interaction.guild));
   }
 

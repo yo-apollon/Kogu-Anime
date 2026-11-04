@@ -158,7 +158,7 @@ describe("progression module commands", () => {
 			];
 			expect(new Set(bjIds).size).toBe(bjIds.length);
 
-			const cfRow = buildCoinflipReplayRow("u1", bet, "cara", 10000);
+			const cfRow = buildCoinflipReplayRow("u1", bet, "cara");
 			const cfChips = buildBetOptionsRow("u1", "cf", 10000, "cara");
 			const cfIds = [
 				...cfRow.components.map((c) => (c.data as { custom_id?: string }).custom_id),

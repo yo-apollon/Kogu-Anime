@@ -1,4 +1,4 @@
-﻿import { afterAll, beforeAll, describe, expect, it, vi } from "vitest";
+import { afterAll, beforeAll, describe, expect, it, vi } from "vitest";
 import type { Message } from "discord.js";
 import { seedEntity, seedGuild, seedMember, seedPact, setupTestDb, uid, type TestDb } from "./helpers.js";
 
@@ -234,6 +234,11 @@ describe("$setvip e $adminreset so para OWNER_IDS (pipeline real de comandos)", 
       pactLimit: 8100,
       releaseBoostEnabled: true,
       allowAdult: false,
+      pactsPerWindow: 1,
+      aetherSnipeProtectionLevel: 0,
+      aetherSnipeProtectionSeconds: 8,
+      channelMode: "ALL" as const,
+      allowedChannels: [],
     };
     const sent: any[] = [];
     const message = {

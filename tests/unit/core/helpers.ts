@@ -17,6 +17,11 @@ export function guildConfig(overrides: Partial<GuildConfig> = {}): GuildConfig {
     pactLimit: 8100,
     releaseBoostEnabled: true,
     allowAdult: false,
+    pactsPerWindow: 1,
+    aetherSnipeProtectionLevel: 0,
+    aetherSnipeProtectionSeconds: 8,
+    channelMode: "ALL",
+    allowedChannels: [],
     ...overrides,
   };
 }
@@ -32,6 +37,7 @@ export interface FakeMessageOptions {
   bot?: boolean;
   inGuild?: boolean;
   userId?: string;
+  channelId?: string;
   hasPerm?: boolean;
 }
 
@@ -45,6 +51,7 @@ export function fakeMessage(options: FakeMessageOptions) {
     sent.push(payload);
     return { id: "sent" };
   });
+  const channelId = options.channelId ?? "c1";
   const message = {
     content: options.content,
     author: { id: options.userId ?? "u1", bot: options.bot ?? false },
@@ -52,7 +59,8 @@ export function fakeMessage(options: FakeMessageOptions) {
     webhookId: null,
     guild: options.inGuild === false ? null : fakeGuild,
     member: { permissions: { has: vi.fn(() => options.hasPerm ?? true) } },
-    channel: { send, sendTyping: vi.fn(async () => undefined) },
+    channelId,
+    channel: { id: channelId, send, sendTyping: vi.fn(async () => undefined) },
     createdTimestamp: Date.now() - 25,
     client: { ws: { ping: 42 } },
     reply,
@@ -63,17 +71,20 @@ export function fakeMessage(options: FakeMessageOptions) {
 export interface FakeSlashOptions {
   commandName: string;
   userId?: string;
+  channelId?: string;
   options?: Array<{ name: string; value: unknown }>;
   hasPerm?: boolean;
 }
 
 export function fakeSlash(opts: FakeSlashOptions) {
   const state = { deferred: false, replied: false };
+  const channelId = opts.channelId ?? "c1";
   const interaction: Record<string, any> = {
     commandName: opts.commandName,
     user: { id: opts.userId ?? "u1" },
     guild: fakeGuild,
     guildId: "g1",
+    channelId,
     member: { permissions: { has: vi.fn(() => opts.hasPerm ?? true) } },
     options: { data: opts.options ?? [] },
     createdTimestamp: Date.now() - 30,

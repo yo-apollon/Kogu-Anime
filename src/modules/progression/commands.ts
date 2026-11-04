@@ -1781,7 +1781,7 @@ export const progressionComponentHandler: ComponentHandler = {
       }
 
       try {
-        let game =
+        const game =
           action === "bj_hit"
             ? await hitBlackjack(sessionId)
             : action === "bj_stand"

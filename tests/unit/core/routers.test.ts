@@ -107,6 +107,44 @@ describe("prefixRouter", () => {
     expect(guildConfigs.get).toHaveBeenCalledTimes(3);
   });
 
+  it("respeita modo SINGLE: ignora comando em canal nao autorizado", async () => {
+    const { prefix } = setup(
+      [pingCommand],
+      guildConfig({ channelMode: "SINGLE", allowedChannels: ["allowed-chan"] })
+    );
+
+    const wrong = fakeMessage({ content: "$ping", channelId: "other-chan" });
+    await prefix(wrong.message);
+    expect(wrong.reply).not.toHaveBeenCalled();
+
+    const right = fakeMessage({ content: "$ping", channelId: "allowed-chan" });
+    await prefix(right.message);
+    expect(right.reply).toHaveBeenCalledTimes(1);
+  });
+
+  it("permite bypass para admin com ManageGuild em comandos config", async () => {
+    const cfgCmd: AnyCommand = {
+      name: "cfgtest",
+      category: "config",
+      descriptionKey: "help.commands.settings",
+      async execute(ctx) {
+        await ctx.reply("ok-admin");
+      },
+    };
+    const { prefix } = setup(
+      [cfgCmd],
+      guildConfig({ channelMode: "SINGLE", allowedChannels: ["allowed-chan"] })
+    );
+
+    const adminMsg = fakeMessage({ content: "$cfgtest", channelId: "other-chan", hasPerm: true });
+    await prefix(adminMsg.message);
+    expect(adminMsg.reply).toHaveBeenCalledTimes(1);
+
+    const nonAdmin = fakeMessage({ content: "$cfgtest", channelId: "other-chan", hasPerm: false });
+    await prefix(nonAdmin.message);
+    expect(nonAdmin.reply).not.toHaveBeenCalled();
+  });
+
   it("resolve alias e atalhos com sufixo, informando invokedAs", async () => {
     const seen: string[] = [];
     const pt: AnyCommand = {
@@ -242,6 +280,26 @@ describe("interactionRouter", () => {
     const payload = s.mock.reply.mock.calls[0]![0] as any;
     expect(embedText(payload)).toContain("Comando desconhecido");
     expect(payload.flags).toBe(64);
+  });
+
+  it("slash em canal nao permitido responde erro efemero com canais", async () => {
+    const base = setup(
+      [pingCommand],
+      guildConfig({ channelMode: "SINGLE", allowedChannels: ["c-rolls"] })
+    );
+    const router = createInteractionRouter({
+      registry: base.registry,
+      guildConfigs: base.guildConfigs,
+      pipeline: base.pipeline,
+      kv: base.kv,
+      handlers: [],
+      lifecycle,
+    });
+    const s = fakeSlash({ commandName: "ping", channelId: "c-other", hasPerm: false });
+    await router(s.interaction);
+    expect(s.mock.reply).toHaveBeenCalledTimes(1);
+    const payload = s.mock.reply.mock.calls[0]![0] as any;
+    expect(embedText(payload)).toContain("só podem ser usados nos seguintes canais: <#c-rolls>");
   });
 
   it("slash com erro inesperado devolve errorId efemero", async () => {

@@ -91,3 +91,20 @@ export function patchFor(
 
 /** Mudar a recarga do Pacto muda a escala da janela de pactos: zerar as janelas dos membros. */
 export const RESETS_WINDOWS: ReadonlySet<SettingKey> = new Set(["timer"]);
+
+export const CHANNEL_MODES = ["ALL", "SINGLE", "SELECTED"] as const;
+export type ChannelMode = (typeof CHANNEL_MODES)[number];
+
+/** Confere se um canal de texto esta autorizado a executar comandos. */
+export function isChannelAllowed(
+  config: { channelMode?: string | null; allowedChannels?: readonly string[] | null },
+  channelId: string
+): boolean {
+  const mode = config.channelMode ?? "ALL";
+  if (mode === "ALL") return true;
+  const list = config.allowedChannels ?? [];
+  if (list.length === 0) return true;
+  if (mode === "SINGLE") return list[0] === channelId;
+  if (mode === "SELECTED") return list.includes(channelId);
+  return true;
+}

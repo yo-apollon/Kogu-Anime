@@ -222,10 +222,12 @@ describe("applyGuildSetting", () => {
       baseRolls: 10,
       rollIntervalMin: 60,
       claimCooldownMinutes: 180,
-      claimWindowSeconds: 45,
+      claimWindowSeconds: 120,
       pactLimit: 8100,
       releaseBoostEnabled: true,
       allowAdult: false,
+      channelMode: "ALL",
+      allowedChannels: [],
     });
   });
 });
@@ -274,6 +276,7 @@ describe("comandos de configuracao (execute com banco real)", () => {
     const select = payload.components[0].toJSON().components[0];
     expect(select.options.map((o: any) => o.value)).toEqual([
       "overview",
+      "channels",
       "rolls",
       "timers",
       "locale",

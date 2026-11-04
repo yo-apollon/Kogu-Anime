@@ -60,6 +60,11 @@ const guildConfigSchema = z.object({
   pactLimit: z.number(),
   releaseBoostEnabled: z.boolean(),
   allowAdult: z.boolean(),
+  pactsPerWindow: z.number().default(1),
+  aetherSnipeProtectionLevel: z.number().default(0),
+  aetherSnipeProtectionSeconds: z.number().default(8),
+  channelMode: z.enum(["ALL", "SINGLE", "SELECTED"]).default("ALL"),
+  allowedChannels: z.array(z.string()).default([]),
 });
 
 /** Mapeia as colunas de `guilds` para o `GuildConfig` do contrato. */
@@ -78,6 +83,11 @@ export function mapGuildRow(row: Guild): GuildConfig {
     pactLimit: row.pactLimit,
     releaseBoostEnabled: row.releaseBoostEnabled,
     allowAdult: row.allowAdult,
+    pactsPerWindow: row.pactsPerWindow ?? 1,
+    aetherSnipeProtectionLevel: row.aetherSnipeProtectionLevel ?? 0,
+    aetherSnipeProtectionSeconds: row.aetherSnipeProtectionSeconds ?? 8,
+    channelMode: (row.channelMode as "ALL" | "SINGLE" | "SELECTED") ?? "ALL",
+    allowedChannels: Array.isArray(row.allowedChannels) ? (row.allowedChannels as string[]) : [],
   };
 }
 

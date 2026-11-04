@@ -85,11 +85,11 @@ describe("upgradeRelic", () => {
   });
 
   it("nivel maximo: UserError com o nome da reliquia e sem debito", async () => {
-    const { g, u } = await member(99_999, { gold: 4 });
+    const { g, u } = await member(99_999, { gold: 8 });
     const err = await ex.upgradeRelic(g, u, "gold").catch((e) => e);
     expect(err.key).toBe("economy.relic_max");
     expect(err.params.name).toContain("Ouro");
-    expect(await row(g, u)).toMatchObject({ aether_balance: 99_999, relic_gold: 4 });
+    expect(await row(g, u)).toMatchObject({ aether_balance: 99_999, relic_gold: 8 });
   });
 
   it("Rubi no maximo da -25% (bronze nivel 0 custa 375)", async () => {
@@ -121,15 +121,15 @@ describe("upgradeRelic: atomicidade e concorrencia", () => {
     expect(await row(g, u)).toMatchObject({ aether_balance: 0, relic_bronze: 1 });
   });
 
-  it("10 simultaneas com saldo de sobra: 4 niveis, 6 recusas e debito exato", async () => {
-    const { g, u } = await member(20_000);
+  it("10 simultaneas com saldo de sobra: 8 niveis, 2 recusas e debito exato", async () => {
+    const { g, u } = await member(100_000);
     const rs = await Promise.all(
       Array.from({ length: 10 }, () => keyOf(ex.upgradeRelic(g, u, "bronze")))
     );
-    expect(rs.filter((r) => r === "ok")).toHaveLength(4);
-    expect(rs.filter((r) => r === "economy.relic_max")).toHaveLength(6);
-    // 500 + 1000 + 1500 + 2000
-    expect(await row(g, u)).toMatchObject({ aether_balance: 15_000, relic_bronze: 4 });
+    expect(rs.filter((r) => r === "ok")).toHaveLength(8);
+    expect(rs.filter((r) => r === "economy.relic_max")).toHaveLength(2);
+    // 500 + 1000 + 1500 + 2000 + 4000 + 7000 + 11000 + 17500 = 44500
+    expect(await row(g, u)).toMatchObject({ aether_balance: 55_500, relic_bronze: 8 });
   });
 
   it("reliquias diferentes em paralelo debitam a soma e nunca deixam o saldo negativo", async () => {
@@ -195,7 +195,7 @@ describe("comando $k / /relics", () => {
     await cmds.relicsCommand.execute(ctx);
     const text = embedText(replies[0]);
     expect(text).toContain("Relíquia Evoluída");
-    expect(text).toContain("Nível 1/4");
+    expect(text).toContain("Nível 1/8");
     expect(text).toContain("700");
     expect(await row(g, u)).toMatchObject({ aether_balance: 700, relic_bronze: 1 });
   });

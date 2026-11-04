@@ -144,6 +144,8 @@ export const entities = pgTable(
     prestige: real("prestige"),
     prestigeSource: text("prestige_source"),
     prestigeReason: text("prestige_reason"),
+    // Piso de tier por curadoria (COMMON|RARE|EPIC|LEGENDARY): o tier final nunca fica abaixo dele.
+    tierFloor: text("tier_floor"),
     lastSyncedAt: tz("last_synced_at"),
     createdAt: tz("created_at").notNull().defaultNow(),
     updatedAt: tz("updated_at")

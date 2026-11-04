@@ -57,6 +57,8 @@ function settings(over: Partial<GuildSettings> = {}): GuildSettings {
     pactLimit: 8100,
     releaseBoostEnabled: true,
     allowAdult: false,
+    channelMode: "ALL",
+    allowedChannels: [],
     ...over,
   };
 }
@@ -112,7 +114,7 @@ describe("registro", () => {
 
   it("o modulo exporta comandos e nenhum componente proprio; categoria e descricao validas", () => {
     expect(components).toEqual([]);
-    expect(moduleCommands).toHaveLength(13);
+    expect(moduleCommands).toHaveLength(14);
     for (const cmd of moduleCommands) {
       expect(cmd.category).toBe("config");
       // `help.commands.set` ainda nao existe em locales/*.json (ver relatorio): so confere o resto
@@ -129,7 +131,7 @@ describe("registro", () => {
 });
 
 describe("permissoes", () => {
-  const needManage = ["setrolls", "settimer", "setclaim", "gamemode", "prefix", "lang", "set"];
+  const needManage = ["setrolls", "settimer", "setclaim", "gamemode", "prefix", "lang", "set", "channel"];
 
   it.each(needManage)("%s exige Gerenciar Servidor", (name) => {
     const cmd = moduleCommands.find((c) => c.name === name)!;
@@ -157,8 +159,8 @@ describe("slash", () => {
   const payload = registry.buildSlashPayload() as any[];
   const byName = (name: string) => payload.find((p) => p.name === name);
 
-  it("registra /settings, /set e /disable", () => {
-    expect(payload.map((p) => p.name).sort()).toEqual(["disable", "set", "settings"]);
+  it("registra /settings, /set, /channel e /disable", () => {
+    expect(payload.map((p) => p.name).sort()).toEqual(["channel", "disable", "set", "settings"]);
     expect(byName("settings").description).toBeTruthy();
   });
 
@@ -213,6 +215,20 @@ describe("tokens de prefixo", () => {
     [["foo", "1"], { setting: "foo", value: "1" }],
   ] as const)("$set %j", (tokens, expected) => {
     expect(commands.parseSetTokens([...tokens])).toEqual(expected);
+  });
+
+  it.each([
+    [[], { action: "list" }],
+    [["list"], { action: "list" }],
+    [["all"], { action: "all" }],
+    [["todos"], { action: "all" }],
+    [["single", "<#123456789>"], { action: "single", channelId: "123456789" }],
+    [["unico", "123456789012345678"], { action: "single", channelId: "123456789012345678" }],
+    [["<#123456789>"], { action: "single", channelId: "123456789" }],
+    [["add", "<#987654321>"], { action: "add", channelId: "987654321" }],
+    [["remove", "<#987654321>"], { action: "remove", channelId: "987654321" }],
+  ] as const)("$channel %j", (tokens, expected) => {
+    expect(commands.parseChannelTokens([...tokens])).toEqual(expected);
   });
 
   it.each([
@@ -365,6 +381,7 @@ describe("$settings", () => {
     expect(select.custom_id).toMatch(/^pn:[0-9a-f]+:select$/);
     expect(select.options.map((o: any) => o.value)).toEqual([
       "overview",
+      "channels",
       "rolls",
       "timers",
       "locale",

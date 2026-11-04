@@ -130,6 +130,18 @@ describe("shared/guildSettings", () => {
     expect(guildSettings.RESETS_WINDOWS.has("rolls")).toBe(false);
     expect(guildSettings.limitsOf("lang")).toEqual({ min: 0, max: 0 });
   });
+
+  it("isChannelAllowed e CHANNEL_MODES", () => {
+    expect(guildSettings.CHANNEL_MODES).toEqual(["ALL", "SINGLE", "SELECTED"]);
+    expect(guildSettings.isChannelAllowed({ channelMode: "ALL" }, "c1")).toBe(true);
+    expect(guildSettings.isChannelAllowed({ channelMode: "ALL", allowedChannels: [] }, "c2")).toBe(true);
+    expect(guildSettings.isChannelAllowed({ channelMode: "SINGLE", allowedChannels: ["c1"] }, "c1")).toBe(true);
+    expect(guildSettings.isChannelAllowed({ channelMode: "SINGLE", allowedChannels: ["c1"] }, "c2")).toBe(false);
+    expect(guildSettings.isChannelAllowed({ channelMode: "SELECTED", allowedChannels: ["c1", "c2"] }, "c1")).toBe(true);
+    expect(guildSettings.isChannelAllowed({ channelMode: "SELECTED", allowedChannels: ["c1", "c2"] }, "c2")).toBe(true);
+    expect(guildSettings.isChannelAllowed({ channelMode: "SELECTED", allowedChannels: ["c1", "c2"] }, "c3")).toBe(false);
+    expect(guildSettings.isChannelAllowed({ channelMode: "SINGLE", allowedChannels: [] }, "c1")).toBe(true);
+  });
 });
 
 describe("shared/pantheon", () => {

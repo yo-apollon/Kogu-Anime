@@ -43,6 +43,13 @@
       "when": 1793497493497,
       "tag": "0005_niche_prestige",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1793814765649,
+      "tag": "0006_channel_mode",
+      "breakpoints": true
     }
   ]
 }

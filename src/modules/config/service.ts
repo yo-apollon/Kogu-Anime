@@ -137,6 +137,8 @@ export interface GuildSettings {
   pactLimit: number;
   releaseBoostEnabled: boolean;
   allowAdult: boolean;
+  channelMode: "ALL" | "SINGLE" | "SELECTED";
+  allowedChannels: string[];
 }
 
 const settingsColumns = {
@@ -157,6 +159,8 @@ const settingsColumns = {
   pactLimit: guilds.pactLimit,
   releaseBoostEnabled: guilds.releaseBoostEnabled,
   allowAdult: guilds.allowAdult,
+  channelMode: guilds.channelMode,
+  allowedChannels: guilds.allowedChannels,
 };
 
 /** Configuracao completa da guilda (cria a linha com os padroes se ainda nao existir). */
@@ -172,8 +176,78 @@ export async function getGuildSettings(guildId: string): Promise<GuildSettings> 
     [row] = await select();
   }
   if (!row) throw new Error(`falha ao criar/ler a linha de guilds para ${guildId}`);
-  const { language, ...rest } = row;
-  return { ...rest, locale: getLocale(language) };
+  const { language, channelMode, allowedChannels, ...rest } = row;
+  return {
+    ...rest,
+    locale: getLocale(language),
+    channelMode: (channelMode as "ALL" | "SINGLE" | "SELECTED") ?? "ALL",
+    allowedChannels: Array.isArray(allowedChannels) ? (allowedChannels as string[]) : [],
+  };
+}
+
+/**
+ * Altera a configuracao de canais permitidos do servidor.
+ */
+export async function setGuildChannels(
+  guildId: string,
+  mode: "ALL" | "SINGLE" | "SELECTED",
+  channels: string[] = []
+): Promise<{ mode: "ALL" | "SINGLE" | "SELECTED"; channels: string[] }> {
+  const normalizedChannels = mode === "ALL" ? [] : [...new Set(channels)];
+  if (mode === "SINGLE" && normalizedChannels.length === 0) {
+    throw new UserError("config.channel_single_missing");
+  }
+
+  await db
+    .insert(guilds)
+    .values({
+      id: guildId,
+      channelMode: mode,
+      allowedChannels: normalizedChannels,
+      configVersion: 1,
+    })
+    .onConflictDoUpdate({
+      target: guilds.id,
+      set: {
+        channelMode: mode,
+        allowedChannels: normalizedChannels,
+        configVersion: sql`${guilds.configVersion} + 1`,
+      },
+    });
+
+  await invalidateGuildConfig(guildId);
+  return { mode, channels: normalizedChannels };
+}
+
+/**
+ * Adiciona um canal a lista de permitidos (passa a operar em modo SELECTED).
+ */
+export async function addGuildChannel(
+  guildId: string,
+  channelId: string
+): Promise<{ mode: "SELECTED"; channels: string[] }> {
+  const settings = await getGuildSettings(guildId);
+  const current = new Set(settings.allowedChannels);
+  current.add(channelId);
+  const channels = [...current];
+  await setGuildChannels(guildId, "SELECTED", channels);
+  return { mode: "SELECTED", channels };
+}
+
+/**
+ * Remove um canal da lista de permitidos. Se ficar vazio, reverte para ALL.
+ */
+export async function removeGuildChannel(
+  guildId: string,
+  channelId: string
+): Promise<{ mode: "ALL" | "SELECTED"; channels: string[] }> {
+  const settings = await getGuildSettings(guildId);
+  const current = new Set(settings.allowedChannels);
+  current.delete(channelId);
+  const channels = [...current];
+  const mode = channels.length === 0 ? "ALL" : "SELECTED";
+  await setGuildChannels(guildId, mode, channels);
+  return { mode, channels };
 }
 
 // ---------------------------------------------------------------------------

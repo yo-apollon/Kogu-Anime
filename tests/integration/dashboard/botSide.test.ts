@@ -90,7 +90,12 @@ describe("guildConfig: propagacao por config_version", () => {
   it("com camada KV: config_version diferente ignora a copia velha do KV", async () => {
     const kv = new mem.MemoryStore();
     let now = 9_000_000;
-    const svc = gc.createGuildConfigService({ kv, db: client.db, now: () => now });
+    const svc = gc.createGuildConfigService({
+      kv,
+      db: client.db,
+      now: () => now,
+      localTtlMs: 30_000,
+    });
     const id = uid("gc");
     await svc.get(id);
     expect(await kv.get(gc.guildConfigKey(id))).not.toBeNull();
@@ -103,7 +108,13 @@ describe("guildConfig: propagacao por config_version", () => {
   it("linha removida: recria com os padroes", async () => {
     const kv = new mem.MemoryStore();
     let now = 20_000_000;
-    const svc = gc.createGuildConfigService({ kv, db: client.db, kvLayer: false, now: () => now });
+    const svc = gc.createGuildConfigService({
+      kv,
+      db: client.db,
+      kvLayer: false,
+      now: () => now,
+      localTtlMs: 30_000,
+    });
     const id = uid("gc");
     await svc.get(id);
     await t.sql`DELETE FROM guilds WHERE id = ${id}`;

@@ -225,6 +225,11 @@ export function testGuildConfig(id: string, over: Partial<GuildConfig> = {}): Gu
     pactLimit: 8100,
     releaseBoostEnabled: true,
     allowAdult: false,
+    pactsPerWindow: 1,
+    aetherSnipeProtectionLevel: 0,
+    aetherSnipeProtectionSeconds: 8,
+    channelMode: "ALL",
+    allowedChannels: [],
     ...over,
   };
 }

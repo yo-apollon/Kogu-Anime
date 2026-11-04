@@ -1232,7 +1232,7 @@ export async function startBlackjack(
     .where(and(eq(guildMembers.guildId, guildId), eq(guildMembers.userId, userId)))
     .returning({ balance: guildMembers.aetherBalance });
 
-  let curBal = debited?.balance ?? (balance - bet);
+  const curBal = debited?.balance ?? (balance - bet);
 
   const pCards = [drawCard(), drawCard()];
   const dCards = [drawCard(), drawCard()];
@@ -1240,7 +1240,7 @@ export async function startBlackjack(
   const dScore = calcScore(dCards);
 
   const sessionId = `${userId}_${Date.now().toString(36)}`;
-  let game: BlackjackGame = {
+  const game: BlackjackGame = {
     sessionId,
     guildId,
     userId,

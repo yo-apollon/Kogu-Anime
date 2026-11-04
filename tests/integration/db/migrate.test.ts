@@ -1,4 +1,4 @@
-﻿import { mkdtemp, rm } from "node:fs/promises";
+import { mkdtemp, rm } from "node:fs/promises";
 import net from "node:net";
 import os from "node:os";
 import path from "node:path";
@@ -133,7 +133,7 @@ describe("migrations do zero", () => {
     await runMigrations(testUrl);
     await runMigrations(testUrl); // segunda execucao nao faz nada
     const [{ n }] = await sql`SELECT count(*)::int AS n FROM drizzle.__drizzle_migrations`;
-    expect(n).toBe(5);
+    expect(n).toBe(7);
   });
 
   it("cria extensoes pg_trgm e unaccent", async () => {
@@ -239,6 +239,21 @@ describe("migration 0003_dashboard", () => {
     await sql`INSERT INTO dashboard_rate_limit (key, count) VALUES ('k1', 1)`;
     expect(await pgError(sql`INSERT INTO dashboard_rate_limit (key, count) VALUES ('k1', 1)`)).toBe("23505");
     expect(await pgError(sql`INSERT INTO dashboard_rate_limit (key, count) VALUES ('k2', -1)`)).toBe("23514");
+  });
+});
+
+describe("migration 0006_channel_mode", () => {
+  it("adiciona channel_mode e allowed_channels com defaults e CHECK", async () => {
+    const [row] = await sql`
+      INSERT INTO guilds (id) VALUES ('g-ch-mode')
+      RETURNING channel_mode, allowed_channels`;
+    expect(row).toEqual({ channel_mode: "ALL", allowed_channels: [] });
+
+    await sql`UPDATE guilds SET channel_mode = 'SINGLE', allowed_channels = '["12345"]'::jsonb WHERE id = 'g-ch-mode'`;
+    const [updated] = await sql`SELECT channel_mode, allowed_channels FROM guilds WHERE id = 'g-ch-mode'`;
+    expect(updated).toEqual({ channel_mode: "SINGLE", allowed_channels: ["12345"] });
+
+    expect(await pgError(sql`UPDATE guilds SET channel_mode = 'INVALID' WHERE id = 'g-ch-mode'`)).toBe("23514");
   });
 });
 
