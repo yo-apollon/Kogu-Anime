@@ -2534,7 +2534,7 @@
 
     function getUrlParams() {
       const hash = (window.location.hash || '').replace(/^#/, '').trim();
-      const search = window.location.search ? window.location.search.replace(/^?/, '') : '';
+      const search = window.location.search ? window.location.search.replace(/^\?/, '') : '';
 
       let view = '';
       let cat = '';
@@ -2591,7 +2591,7 @@
         const view = currentView || 'database';
         const cat = currentCategory || 'all';
         const searchInput = document.getElementById('mainSearchInput');
-        const q = (searchInput ? searchInput.value : '').trim();
+        const q = (searchInput && searchInput.value ? searchInput.value : '').trim();
         const p = currentPage || 1;
         const seriesSelect = document.getElementById('seriesFilterSelect');
         const series = seriesSelect ? seriesSelect.value : 'all';
