@@ -23,6 +23,7 @@ COPY --from=builder /app/src/infra/db/migrations ./dist/infra/db/migrations
 COPY assets ./assets
 # overrides de arte (emblema x imagem), lidos por src/canvas/engine/artResolver
 COPY data ./data
+COPY docs ./docs
 USER node
 HEALTHCHECK --interval=30s --timeout=5s --start-period=30s --retries=3 \
   CMD wget -qO- http://127.0.0.1:${HEALTH_PORT:-8080}/healthz || exit 1
