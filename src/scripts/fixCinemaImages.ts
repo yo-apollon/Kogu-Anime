@@ -13,19 +13,19 @@ import postgres from "postgres";
 export const ENTITY_IMAGE_FIXES = [
   {
     name: "Darth Vader (Lorde das Cinzas)",
-    imageUrl: "https://image.tmdb.org/t/p/w500/xfSAoBEm9MNBjmlNcDYLvLSMlnq.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/darth-vader-mustafar.jpg",
   },
   {
     name: "Darth Vader (Lorde Sith)",
-    imageUrl: "https://image.tmdb.org/t/p/w500/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/darth-vader-star-wars.jpg",
   },
   {
     name: "Luke Skywalker (Mestre Jedi)",
-    imageUrl: "https://image.tmdb.org/t/p/w500/tEQlCGiiWvMvfD7Sz8d99Pouy39.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/luke-skywalker-star-wars.jpg",
   },
   {
     name: "Princesa Leia Organa",
-    imageUrl: "https://image.tmdb.org/t/p/w500/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/princess-leia-star-wars.jpg",
   },
   {
     name: "Sabre de Luz de Anakin Skywalker",
@@ -33,23 +33,23 @@ export const ENTITY_IMAGE_FIXES = [
   },
   {
     name: "O Coringa (Joker)",
-    imageUrl: "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/joker-dc.jpg",
   },
   {
     name: "Homem de Ferro (Iron Man)",
-    imageUrl: "https://image.tmdb.org/t/p/w500/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/iron-man-marvel.jpg",
   },
   {
     name: "Thor Odinson (Deus do Trovão)",
-    imageUrl: "https://image.tmdb.org/t/p/w500/prSfAi1xGrhLQNxVSUFh61xQ4Qy.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/thor-marvel.jpg",
   },
   {
     name: "Feiticeira Escarlate (Scarlet Witch)",
-    imageUrl: "https://image.tmdb.org/t/p/w500/ijWWwINc8h71NQ8j1LTJMFSj5wr.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/scarlet-witch-marvel.jpg",
   },
   {
     name: "Viúva Negra (Black Widow)",
-    imageUrl: "https://image.tmdb.org/t/p/w500/kwB7d51AIcyzPOBOHLCEZJkmPhQ.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/black-widow-marvel.jpg",
   },
 ];
 

@@ -1809,7 +1809,7 @@
     <div class="main-nav-container">
       <button id="viewBtn-database" class="nav-tab-btn active" onclick="switchView('database')">
         <span>📊</span> <span>Catálogo Multiversal</span>
-        <span class="tab-badge" id="tabCountDatabase">7.379</span>
+        <span class="tab-badge" id="tabCountDatabase">6.820</span>
       </button>
       <button id="viewBtn-series" class="nav-tab-btn" onclick="switchView('series')">
         <span>📺</span> <span>Obras & Franquias</span>
@@ -1912,7 +1912,7 @@
       <div class="category-filter-bar">
         <div class="category-pills-container">
           <button class="cat-pill active" data-cat="all" onclick="setCategoryFilter('all', this)">
-            <span>🌟</span> <span>Todos</span> <span class="pill-count" id="countAll">7.379</span>
+            <span>🌟</span> <span>Todos</span> <span class="pill-count" id="countAll">6.820</span>
           </button>
           <button class="cat-pill" data-cat="UFC" onclick="setCategoryFilter('UFC', this)">
             <span>🥊</span> <span>UFC & MMA</span> <span class="pill-count" id="countUFC">180</span>
@@ -1924,7 +1924,7 @@
             <span>🏀</span> <span>NBA / Basquete</span> <span class="pill-count" id="countNBA">150</span>
           </button>
           <button class="cat-pill" data-cat="MUSIC" onclick="setCategoryFilter('MUSIC', this)">
-            <span>🎤</span> <span>Música & Trap</span> <span class="pill-count" id="countMusic">210</span>
+            <span>🎤</span> <span>Música & Idols</span> <span class="pill-count" id="countMusic">210</span>
           </button>
           <button class="cat-pill" data-cat="ANIME" onclick="setCategoryFilter('ANIME', this)">
             <span>🎌</span> <span>Anime & Mangá</span> <span class="pill-count" id="countAnime">4.850</span>
@@ -1933,7 +1933,10 @@
             <span>🎮</span> <span>Games & Jogos</span> <span class="pill-count" id="countGames">1.120</span>
           </button>
           <button class="cat-pill" data-cat="CINEMA" onclick="setCategoryFilter('CINEMA', this)">
-            <span>🎬</span> <span>Cinema & Séries</span> <span class="pill-count" id="countCinema">549</span>
+            <span>🎬</span> <span>Cinema & Doramas</span> <span class="pill-count" id="countCinema">549</span>
+          </button>
+          <button class="cat-pill" data-cat="WEAPONS" onclick="setCategoryFilter('WEAPONS', this)">
+            <span>⚔️</span> <span>Armas ($ar)</span> <span class="pill-count" id="countWeapons">68</span>
           </button>
         </div>
       </div>
@@ -1964,7 +1967,7 @@
         </div>
         <div class="promo-right-stats">
           <div class="promo-stat-box">
-            <span class="stat-big-val">7.379</span>
+            <span class="stat-big-val" id="heroStatTotal">6.820</span>
             <span class="stat-small-lbl">Cartas Ativas</span>
           </div>
           <div class="promo-stat-box">
@@ -2490,7 +2493,7 @@
       return '<span class="pill-edition edition-basic">Edição Básica</span>';
     }
 
-    // Helper: Encontra todas as variações/edições irmãs
+    // Helper: Encontra todas as variações/edições irmãs (estritamente pela família parentSlug/slug)
     function findCharacterEditions(char) {
       if (!char) return [];
       const baseSlug = char.parentSlug || char.slug;
@@ -2502,13 +2505,12 @@
           return matches;
         }
       }
-      const byName = catalog.filter(c => c.name === char.name && c.universe === char.universe);
-      if (byName.length > 1) {
-        const order = { 'BASIC': 1, 'EPIC': 2, 'MYTHIC': 3 };
-        byName.sort((a, b) => (order[a.edition || 'BASIC'] || 1) - (order[b.edition || 'BASIC'] || 1));
-        return byName;
-      }
       return [char];
+    }
+
+    function isWeaponCard(c) {
+      if (!c) return false;
+      return c.gender === 'OTHER' || c.niche === 'weapon' || (c.seriesTitle && c.seriesTitle.includes('Armas'));
     }
 
     // SPA Router & Persistent URL State (Preserva F5 sem resetar)
@@ -2525,6 +2527,8 @@
       'anime': 'ANIME',
       'games': 'GAMES',
       'cinema': 'CINEMA',
+      'armas': 'WEAPONS',
+      'weapons': 'WEAPONS',
       'todos': 'all'
     };
 
@@ -2671,17 +2675,21 @@
         music: 0,
         anime: 0,
         games: 0,
-        cinema: 0
+        cinema: 0,
+        weapons: 0
       };
 
       catalog.forEach(c => {
+        if (isWeaponCard(c)) {
+          counts.weapons++;
+        }
         if (c.niche === 'sport_mma' || (c.seriesTitle && (c.seriesTitle.includes('UFC') || c.seriesTitle.includes('MMA')))) counts.ufc++;
         if (c.niche === 'sport_football' || (c.seriesTitle && (c.seriesTitle.includes('Futebol') || c.seriesTitle.includes('Copa')))) counts.football++;
         if (c.niche === 'sport_basketball' || (c.seriesTitle && (c.seriesTitle.includes('NBA') || c.seriesTitle.includes('Basquete')))) counts.nba++;
         if (c.niche?.startsWith('music_') || c.niche === 'idol' || (c.seriesTitle && (c.seriesTitle.includes('Música') || c.seriesTitle.includes('Trap') || c.seriesTitle.includes('Hip-Hop') || c.seriesTitle.includes('Rock') || c.seriesTitle.includes('Pop') || c.seriesTitle.includes('K-Pop')))) counts.music++;
-        if (c.universe === 'ANIME' || c.niche === 'anime') counts.anime++;
+        if (c.universe === 'ANIME' || c.niche === 'anime' || c.niche === 'manhwa_vn') counts.anime++;
         if (c.universe === 'GAME' || c.niche === 'game') counts.games++;
-        if ((c.universe === 'CINEMA' || c.niche === 'cinema_tv') && !(c.niche === 'sport_mma' || c.niche === 'sport_football' || c.niche === 'sport_basketball' || c.niche?.startsWith('music_'))) counts.cinema++;
+        if ((c.universe === 'CINEMA' || c.niche === 'cinema_tv') && !(c.niche === 'sport_mma' || c.niche === 'sport_football' || c.niche === 'sport_basketball' || c.niche?.startsWith('music_') || c.niche === 'idol')) counts.cinema++;
       });
 
       const setEl = (id, val) => {
@@ -2690,6 +2698,8 @@
       };
 
       setEl('countAll', counts.all);
+      setEl('tabCountDatabase', counts.all);
+      setEl('heroStatTotal', counts.all);
       setEl('countUFC', counts.ufc);
       setEl('countFootball', counts.football);
       setEl('countNBA', counts.nba);
@@ -2697,12 +2707,20 @@
       setEl('countAnime', counts.anime);
       setEl('countGames', counts.games);
       setEl('countCinema', counts.cinema);
+      setEl('countWeapons', counts.weapons);
     }
 
     async function init() {
       try {
         const res = await fetch('./catalog.json');
         catalog = await res.json();
+        if (location.hostname === 'localhost' || location.hostname === '127.0.0.1' || location.protocol === 'file:') {
+          catalog.forEach(c => {
+            if (c.imageUrl && c.imageUrl.includes('/assets/cards/')) {
+              c.imageUrl = './assets/cards/' + c.imageUrl.split('/').pop();
+            }
+          });
+        }
       } catch (err) {
         console.error('Falha ao carregar catalog.json', err);
       }
@@ -2857,7 +2875,9 @@
         }
 
         // Categoria superior dedicada
-        if (currentCategory === 'UFC') {
+        if (currentCategory === 'WEAPONS') {
+          if (!isWeaponCard(c)) return false;
+        } else if (currentCategory === 'UFC') {
           const isUfc = c.niche === 'sport_mma' || (c.seriesTitle && (c.seriesTitle.includes('UFC') || c.seriesTitle.includes('MMA')));
           if (!isUfc) return false;
         } else if (currentCategory === 'FOOTBALL') {
@@ -2870,12 +2890,12 @@
           const isMusic = c.niche?.startsWith('music_') || c.niche === 'idol' || (c.seriesTitle && (c.seriesTitle.includes('Música') || c.seriesTitle.includes('Trap') || c.seriesTitle.includes('Hip-Hop') || c.seriesTitle.includes('Rock') || c.seriesTitle.includes('Pop') || c.seriesTitle.includes('K-Pop')));
           if (!isMusic) return false;
         } else if (currentCategory === 'ANIME') {
-          if (c.universe !== 'ANIME' && c.niche !== 'anime') return false;
+          if (c.universe !== 'ANIME' && c.niche !== 'anime' && c.niche !== 'manhwa_vn') return false;
         } else if (currentCategory === 'GAMES') {
           if (c.universe !== 'GAME' && c.niche !== 'game') return false;
         } else if (currentCategory === 'CINEMA') {
           if (c.universe !== 'CINEMA' && c.niche !== 'cinema_tv') return false;
-          if (c.niche === 'sport_mma' || c.niche === 'sport_football' || c.niche === 'sport_basketball' || c.niche?.startsWith('music_')) return false;
+          if (c.niche === 'sport_mma' || c.niche === 'sport_football' || c.niche === 'sport_basketball' || c.niche?.startsWith('music_') || c.niche === 'idol') return false;
         } else if (currentCategory !== 'all') {
           if (c.universe !== currentCategory) return false;
         }
@@ -3611,7 +3631,7 @@
       } else if (mode === 'sports') {
         pool = catalog.filter(c => c.niche?.startsWith('sport_') || c.niche?.startsWith('music_') || (c.seriesTitle && (c.seriesTitle.includes('UFC') || c.seriesTitle.includes('Futebol') || c.seriesTitle.includes('NBA') || c.seriesTitle.includes('Música'))));
       } else if (mode === 'weapon') {
-        pool = catalog.filter(c => c.niche === 'weapon' || c.seriesTitle?.includes('Armas'));
+        pool = catalog.filter(c => isWeaponCard(c));
         if (!pool.length) pool = catalog.filter(c => (c.tier || '').toUpperCase() === 'MYTHIC');
       }
 

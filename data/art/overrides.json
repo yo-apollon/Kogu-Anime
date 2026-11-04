@@ -1,1 +1,5762 @@
-[]
+[
+  {
+    "slug": "gokuu-son-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gokuu-son-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gokuu-son-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gokuu-son-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "naruto-uzumaki-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/naruto-uzumaki-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "monkey-d-luffy-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/monkey-d-luffy-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "naruto-uzumaki-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/naruto-uzumaki-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "monkey-d-luffy-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/monkey-d-luffy-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mio-kofune-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mio-kofune-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mio-kofune-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mio-kofune-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "renji-abarai-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/renji-abarai-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "renji-abarai-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/renji-abarai-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "xerxes-break-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/xerxes-break-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "xerxes-break-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/xerxes-break-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "asirpa-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/asirpa-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "asirpa-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/asirpa-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tarou-sakamoto-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tarou-sakamoto-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tarou-sakamoto-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tarou-sakamoto-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jousuke-higashikata-anilist-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jousuke-higashikata-anilist-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jousuke-higashikata-anilist-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jousuke-higashikata-anilist-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zanka-nijiku-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zanka-nijiku-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zanka-nijiku-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zanka-nijiku-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lubbock-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lubbock-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lubbock-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lubbock-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "karane-inda-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/karane-inda-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "karane-inda-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/karane-inda-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yuuko-aioi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yuuko-aioi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yuuko-aioi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yuuko-aioi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sasuke-uchiha-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sasuke-uchiha-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sasuke-uchiha-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sasuke-uchiha-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "origami-tobiichi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/origami-tobiichi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "origami-tobiichi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/origami-tobiichi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kenji-endou-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kenji-endou-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kenji-endou-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kenji-endou-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "light-yagami-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/light-yagami-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "joutarou-kuujou-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/joutarou-kuujou-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "eren-yeager-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/eren-yeager-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "light-yagami-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/light-yagami-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "joutarou-kuujou-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/joutarou-kuujou-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "eren-yeager-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/eren-yeager-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zoro-roronoa-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zoro-roronoa-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "saitama-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/saitama-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "saitama-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/saitama-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zoro-roronoa-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zoro-roronoa-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "edward-elric-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/edward-elric-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "asuka-langley-souryuu-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/asuka-langley-souryuu-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "l-lawliet-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/l-lawliet-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ichigo-kurosaki-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ichigo-kurosaki-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "guts-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/guts-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shinji-ikari-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shinji-ikari-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yuuji-itadori-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yuuji-itadori-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dio-brando-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dio-brando-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rei-ayanami-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rei-ayanami-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "l-lawliet-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/l-lawliet-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "edward-elric-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/edward-elric-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shinji-ikari-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shinji-ikari-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rei-ayanami-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rei-ayanami-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yuuji-itadori-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yuuji-itadori-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dio-brando-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dio-brando-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "guts-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/guts-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "asuka-langley-souryuu-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/asuka-langley-souryuu-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ichigo-kurosaki-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ichigo-kurosaki-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "nezuko-kamado-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/nezuko-kamado-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "spike-spiegel-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/spike-spiegel-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tanjirou-kamado-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tanjirou-kamado-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mikasa-ackerman-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mikasa-ackerman-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "satoru-gojou-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/satoru-gojou-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sukuna-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sukuna-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "spike-spiegel-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/spike-spiegel-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "satoru-gojou-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/satoru-gojou-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "nezuko-kamado-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/nezuko-kamado-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sukuna-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sukuna-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mikasa-ackerman-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mikasa-ackerman-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tanjirou-kamado-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tanjirou-kamado-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sanji-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sanji-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gon-freecss-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gon-freecss-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "killua-zoldyck-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/killua-zoldyck-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "killua-zoldyck-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/killua-zoldyck-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gon-freecss-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gon-freecss-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sanji-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sanji-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lelouch-lamperouge-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lelouch-lamperouge-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lelouch-lamperouge-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lelouch-lamperouge-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ken-kaneki-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ken-kaneki-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "izuku-midoriya-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/izuku-midoriya-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "nami-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/nami-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ichigo-vasto-lorde-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ichigo-vasto-lorde-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "izuku-midoriya-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/izuku-midoriya-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ichigo-vasto-lorde-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ichigo-vasto-lorde-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "nami-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/nami-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ken-kaneki-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ken-kaneki-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kakashi-hatake-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kakashi-hatake-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "joseph-joestar-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/joseph-joestar-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "griffith-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/griffith-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "levi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/levi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "armin-arlert-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/armin-arlert-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kazuto-kirigaya-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kazuto-kirigaya-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "itachi-uchiha-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/itachi-uchiha-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kakashi-hatake-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kakashi-hatake-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kazuto-kirigaya-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kazuto-kirigaya-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "itachi-uchiha-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/itachi-uchiha-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "levi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/levi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "joseph-joestar-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/joseph-joestar-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "armin-arlert-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/armin-arlert-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "griffith-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/griffith-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "artoria-pendragon-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/artoria-pendragon-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "katsuki-bakugou-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/katsuki-bakugou-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rintarou-okabe-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rintarou-okabe-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "makima-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/makima-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "denji-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/denji-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "asuna-yuuki-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/asuna-yuuki-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "asuna-yuuki-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/asuna-yuuki-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "makima-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/makima-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rintarou-okabe-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rintarou-okabe-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "denji-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/denji-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "artoria-pendragon-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/artoria-pendragon-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "katsuki-bakugou-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/katsuki-bakugou-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kurapika-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kurapika-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hisoka-morow-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hisoka-morow-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "chopper-tony-tony-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/chopper-tony-tony-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hisoka-morow-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hisoka-morow-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "chopper-tony-tony-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/chopper-tony-tony-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kurapika-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kurapika-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "c-c-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/c-c-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shouyou-hinata-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shouyou-hinata-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rin-toosaka-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rin-toosaka-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kurisu-makise-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kurisu-makise-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "musashi-miyamoto-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/musashi-miyamoto-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rin-toosaka-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rin-toosaka-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "musashi-miyamoto-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/musashi-miyamoto-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "c-c-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/c-c-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kurisu-makise-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kurisu-makise-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shouyou-hinata-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shouyou-hinata-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jousuke-higashikata-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jousuke-higashikata-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yor-forger-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yor-forger-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shigeo-kageyama-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shigeo-kageyama-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "loid-forger-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/loid-forger-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "robin-nico-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/robin-nico-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "anya-forger-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/anya-forger-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shigeo-kageyama-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shigeo-kageyama-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "loid-forger-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/loid-forger-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jousuke-higashikata-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jousuke-higashikata-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "robin-nico-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/robin-nico-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yor-forger-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yor-forger-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "anya-forger-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/anya-forger-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "power-csm-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/power-csm-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "subaru-natsuki-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/subaru-natsuki-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "emilia-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/emilia-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rem-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rem-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shouto-todoroki-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shouto-todoroki-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "frieren-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/frieren-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gintoki-sakata-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gintoki-sakata-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "emilia-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/emilia-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "subaru-natsuki-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/subaru-natsuki-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "power-csm-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/power-csm-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rem-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rem-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gintoki-sakata-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gintoki-sakata-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shouto-todoroki-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shouto-todoroki-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "frieren-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/frieren-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "homura-akemi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/homura-akemi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zenitsu-agatsuma-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zenitsu-agatsuma-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zenitsu-agatsuma-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zenitsu-agatsuma-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "homura-akemi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/homura-akemi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "misato-katsuragi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/misato-katsuragi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "inosuke-hashibira-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/inosuke-hashibira-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "inosuke-hashibira-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/inosuke-hashibira-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "misato-katsuragi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/misato-katsuragi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ryuuko-matoi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ryuuko-matoi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shikamaru-nara-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shikamaru-nara-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "erwin-smith-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/erwin-smith-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tobio-kageyama-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tobio-kageyama-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shikamaru-nara-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shikamaru-nara-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tobio-kageyama-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tobio-kageyama-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "erwin-smith-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/erwin-smith-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ryuuko-matoi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ryuuko-matoi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "roy-mustang-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/roy-mustang-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "suguru-getou-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/suguru-getou-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rimuru-tempest-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rimuru-tempest-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kamina-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kamina-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "simon-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/simon-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "megumi-fushiguro-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/megumi-fushiguro-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yoshikage-kira-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yoshikage-kira-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "megumi-fushiguro-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/megumi-fushiguro-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "simon-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/simon-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "suguru-getou-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/suguru-getou-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yoshikage-kira-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yoshikage-kira-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kamina-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kamina-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rimuru-tempest-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rimuru-tempest-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "roy-mustang-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/roy-mustang-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "howl-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/howl-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "howl-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/howl-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kaguya-shinomiya-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kaguya-shinomiya-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kaguya-shinomiya-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kaguya-shinomiya-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "death-note-item",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/death-note-item.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "roxy-migurdia-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/roxy-migurdia-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "roxy-migurdia-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/roxy-migurdia-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dragon-slayer-berserk",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dragon-slayer-berserk.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "goku-black-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/goku-black-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "goku-black-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/goku-black-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "megumin-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/megumin-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "megumin-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/megumin-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "chika-fujiwara-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/chika-fujiwara-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "chika-fujiwara-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/chika-fujiwara-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kyou-souma-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kyou-souma-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kyou-souma-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kyou-souma-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kiyotaka-ayanokouji-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kiyotaka-ayanokouji-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "marin-kitagawa-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/marin-kitagawa-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kiyotaka-ayanokouji-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kiyotaka-ayanokouji-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "marin-kitagawa-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/marin-kitagawa-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "nyoibo-dragon-ball",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/nyoibo-dragon-ball.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gyro-zeppeli-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gyro-zeppeli-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gyro-zeppeli-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gyro-zeppeli-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "itsuki-nakano-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/itsuki-nakano-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "maomao-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/maomao-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hachiman-hikigaya-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hachiman-hikigaya-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hachiman-hikigaya-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hachiman-hikigaya-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "itsuki-nakano-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/itsuki-nakano-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "maomao-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/maomao-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "excalibur",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/excalibur.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shouko-nishimiya-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shouko-nishimiya-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shouko-nishimiya-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shouko-nishimiya-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zangetsu-bleach",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zangetsu-bleach.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "spear-of-longinus",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/spear-of-longinus.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tessaiga-inuyasha",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tessaiga-inuyasha.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kaori-miyazono-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kaori-miyazono-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kaori-miyazono-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kaori-miyazono-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mai-sakurajima-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mai-sakurajima-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ray-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ray-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mai-sakurajima-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mai-sakurajima-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ray-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ray-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "enma-one-piece",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/enma-one-piece.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kusanagi-naruto",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kusanagi-naruto.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "osamu-dazai-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/osamu-dazai-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "osamu-dazai-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/osamu-dazai-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "wado-ichimonji",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/wado-ichimonji.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shusui-one-piece",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shusui-one-piece.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "elucidator-dark-repulser",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/elucidator-dark-repulser.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yoru-one-piece",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yoru-one-piece.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gabi-braun-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gabi-braun-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gabi-braun-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gabi-braun-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tenseiga-inuyasha",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tenseiga-inuyasha.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lambent-light-sao",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lambent-light-sao.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gate-of-babylon",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gate-of-babylon.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "cross-punisher-trigun",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/cross-punisher-trigun.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "scissor-blade-kill-la-kill",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/scissor-blade-kill-la-kill.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "judgment-chain-kurapika",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/judgment-chain-kurapika.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "senbonzakura-bleach",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/senbonzakura-bleach.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ea-enuma-elish",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ea-enuma-elish.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "phosphophyllite-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/phosphophyllite-mythic.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "phosphophyllite-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/phosphophyllite-epic.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "nichirin-yoriichi",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/nichirin-yoriichi.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lostvayne-meliodas",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lostvayne-meliodas.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "murasame-akame",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/murasame-akame.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gae-bolg-fate",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gae-bolg-fate.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kubikiribocho-naruto",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kubikiribocho-naruto.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dominator-psycho-pass",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dominator-psycho-pass.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "bakuzan-kill-la-kill",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/bakuzan-kill-la-kill.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hanako-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hanako-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hanako-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hanako-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hak-son-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hak-son-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kaoruko-waguri-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kaoruko-waguri-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shun-kaidou-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shun-kaidou-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "punpun-onodera-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/punpun-onodera-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tomoe-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tomoe-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sawako-kuronuma-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sawako-kuronuma-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "alucard-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/alucard-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "vanitas-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vanitas-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "chisa-kotegawa-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/chisa-kotegawa-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "iruma-suzuki-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/iruma-suzuki-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "giorno-giovanna-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/giorno-giovanna-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mashiro-shiina-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mashiro-shiina-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jolyne-kuujou-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jolyne-kuujou-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shinichi-izumi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shinichi-izumi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sebastian-michaelis-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sebastian-michaelis-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tamaki-suou-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tamaki-suou-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yuusuke-urameshi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yuusuke-urameshi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "souma-yukihira-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/souma-yukihira-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gabimaru-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gabimaru-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "raphtalia-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/raphtalia-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "qifrey-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/qifrey-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "cid-kagenou-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/cid-kagenou-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "satan-jacob-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/satan-jacob-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hina-chouno-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hina-chouno-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "anna-yamada-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/anna-yamada-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mash-burnedead-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mash-burnedead-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "nazuna-nanakusa-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/nazuna-nanakusa-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shirayuki-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shirayuki-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "momo-ayase-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/momo-ayase-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "victor-nikiforov-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/victor-nikiforov-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mitsumi-iwakura-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mitsumi-iwakura-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "anos-voldigoad-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/anos-voldigoad-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "marcille-donato-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/marcille-donato-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mitsuha-miyamizu-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mitsuha-miyamizu-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "satoru-fujinuma-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/satoru-fujinuma-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "akito-yamada-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/akito-yamada-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "meiko-honma-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/meiko-honma-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yue-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yue-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rin-okumura-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rin-okumura-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yuno-gasai-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yuno-gasai-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hirotaka-nifuji-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hirotaka-nifuji-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "takumi-usui-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/takumi-usui-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rei-kiriyama-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rei-kiriyama-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "haruhi-suzumiya-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/haruhi-suzumiya-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kanna-kamui-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kanna-kamui-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "misaki-nakahara-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/misaki-nakahara-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shinoa-hiiragi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shinoa-hiiragi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ban-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ban-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "reki-kyan-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/reki-kyan-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rin-matsuoka-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rin-matsuoka-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rikka-takanashi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rikka-takanashi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shouko-komi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shouko-komi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "misuzu-gundou-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/misuzu-gundou-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "noriaki-kakyouin-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/noriaki-kakyouin-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kyouko-kirigiri-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kyouko-kirigiri-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "alisa-kujou-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/alisa-kujou-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kou-mabuchi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kou-mabuchi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mirai-kuriyama-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mirai-kuriyama-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tsukasa-yuzaki-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tsukasa-yuzaki-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "fumino-furuhashi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/fumino-furuhashi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tatsuya-shiba-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tatsuya-shiba-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rei-miyamoto-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rei-miyamoto-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rui-tachibana-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rui-tachibana-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kenshin-himura-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kenshin-himura-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yuu-koito-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yuu-koito-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hayase-nagatoro-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hayase-nagatoro-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "vegeta-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vegeta-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ippo-makunouchi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ippo-makunouchi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "miyako-shikimori-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/miyako-shikimori-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "echidna-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/echidna-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "isaac-foster-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/isaac-foster-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "madara-uchiha-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/madara-uchiha-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sousuke-aizen-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sousuke-aizen-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "broly-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/broly-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "momo-ayase-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/momo-ayase-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "giorno-giovanna-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/giorno-giovanna-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kanna-kamui-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kanna-kamui-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "reki-kyan-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/reki-kyan-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jolyne-kuujou-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jolyne-kuujou-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rei-kiriyama-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rei-kiriyama-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "haruhi-suzumiya-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/haruhi-suzumiya-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "noriaki-kakyouin-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/noriaki-kakyouin-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "alucard-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/alucard-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hak-son-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hak-son-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hirotaka-nifuji-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hirotaka-nifuji-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shun-kaidou-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shun-kaidou-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "nazuna-nanakusa-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/nazuna-nanakusa-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hina-chouno-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hina-chouno-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yuno-gasai-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yuno-gasai-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "victor-nikiforov-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/victor-nikiforov-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "raphtalia-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/raphtalia-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shouko-komi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shouko-komi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "miyako-shikimori-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/miyako-shikimori-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "punpun-onodera-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/punpun-onodera-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yue-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yue-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kyouko-kirigiri-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kyouko-kirigiri-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tatsuya-shiba-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tatsuya-shiba-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tsukasa-yuzaki-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tsukasa-yuzaki-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "marcille-donato-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/marcille-donato-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ban-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ban-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yuu-koito-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yuu-koito-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "satan-jacob-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/satan-jacob-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shirayuki-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shirayuki-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kaoruko-waguri-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kaoruko-waguri-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kenshin-himura-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kenshin-himura-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "takumi-usui-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/takumi-usui-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yuusuke-urameshi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yuusuke-urameshi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "vanitas-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vanitas-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gabimaru-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gabimaru-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "cid-kagenou-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/cid-kagenou-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "misuzu-gundou-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/misuzu-gundou-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "meiko-honma-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/meiko-honma-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mashiro-shiina-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mashiro-shiina-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rin-matsuoka-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rin-matsuoka-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tamaki-suou-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tamaki-suou-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "anos-voldigoad-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/anos-voldigoad-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shinoa-hiiragi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shinoa-hiiragi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "satoru-fujinuma-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/satoru-fujinuma-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "anna-yamada-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/anna-yamada-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "vegeta-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vegeta-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "misaki-nakahara-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/misaki-nakahara-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mash-burnedead-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mash-burnedead-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "isaac-foster-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/isaac-foster-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sawako-kuronuma-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sawako-kuronuma-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ippo-makunouchi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ippo-makunouchi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "souma-yukihira-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/souma-yukihira-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tomoe-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tomoe-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "akito-yamada-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/akito-yamada-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rikka-takanashi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rikka-takanashi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "qifrey-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/qifrey-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shinichi-izumi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shinichi-izumi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sebastian-michaelis-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sebastian-michaelis-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rin-okumura-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rin-okumura-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mitsuha-miyamizu-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mitsuha-miyamizu-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mirai-kuriyama-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mirai-kuriyama-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "chisa-kotegawa-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/chisa-kotegawa-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "iruma-suzuki-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/iruma-suzuki-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kou-mabuchi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kou-mabuchi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hayase-nagatoro-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hayase-nagatoro-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "alisa-kujou-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/alisa-kujou-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rei-miyamoto-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rei-miyamoto-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "echidna-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/echidna-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "fumino-furuhashi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/fumino-furuhashi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mitsumi-iwakura-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mitsumi-iwakura-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "madara-uchiha-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/madara-uchiha-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rui-tachibana-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rui-tachibana-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sousuke-aizen-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sousuke-aizen-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "broly-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/broly-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "samehada-naruto",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/samehada-naruto.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kurikara-blue-exorcist",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kurikara-blue-exorcist.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "reiken-kuwabara",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/reiken-kuwabara.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mugen-dgrayman",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mugen-dgrayman.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "pain-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/pain-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "pain-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/pain-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "iron-man-marvel-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/iron-man-marvel-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "batman-dc-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/batman-dc-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "iron-man-marvel-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/iron-man-marvel-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "batman-dc-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/batman-dc-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "batman-dc",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/batman-dc.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "iron-man-marvel",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/iron-man-marvel.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "darth-vader-star-wars-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/darth-vader-star-wars-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "luke-skywalker-star-wars-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/luke-skywalker-star-wars-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "darth-vader-mustafar-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/darth-vader-mustafar-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "darth-vader-star-wars-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/darth-vader-star-wars-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "luke-skywalker-star-wars-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/luke-skywalker-star-wars-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "darth-vader-mustafar-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/darth-vader-mustafar-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "darth-vader-star-wars",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/darth-vader-star-wars.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "darth-vader-mustafar",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/darth-vader-mustafar.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "luke-skywalker-star-wars",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/luke-skywalker-star-wars.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "spiderman-symbiote-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/spiderman-symbiote-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "joker-dc-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/joker-dc-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "joker-dc-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/joker-dc-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "spiderman-symbiote-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/spiderman-symbiote-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "joker-dc",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/joker-dc.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "spiderman-symbiote",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/spiderman-symbiote.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "thanos-marvel-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/thanos-marvel-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "thanos-marvel-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/thanos-marvel-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "thanos-marvel",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/thanos-marvel.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "thor-marvel-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/thor-marvel-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "thor-marvel-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/thor-marvel-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "thor-marvel",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/thor-marvel.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "neo-matrix-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/neo-matrix-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "neo-matrix-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/neo-matrix-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "neo-matrix",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/neo-matrix.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "seong-gi-hun-jogador-456-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/seong-gi-hun-jogador-456-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "seong-gi-hun-jogador-456-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/seong-gi-hun-jogador-456-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "seong-gi-hun-jogador-456",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/seong-gi-hun-jogador-456.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "batman-hellbat-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/batman-hellbat-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "princess-leia-star-wars-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/princess-leia-star-wars-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "batman-hellbat-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/batman-hellbat-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "princess-leia-star-wars-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/princess-leia-star-wars-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "princess-leia-star-wars",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/princess-leia-star-wars.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "batman-hellbat",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/batman-hellbat.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "scarlet-witch-marvel-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/scarlet-witch-marvel-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "scarlet-witch-marvel-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/scarlet-witch-marvel-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "scarlet-witch-marvel",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/scarlet-witch-marvel.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "john-wick-cinema-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/john-wick-cinema-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "john-wick-cinema-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/john-wick-cinema-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "john-wick-cinema",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/john-wick-cinema.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "black-widow-marvel-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/black-widow-marvel-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "black-widow-marvel-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/black-widow-marvel-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "black-widow-marvel",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/black-widow-marvel.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kang-sae-byeok-jogadora-067-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kang-sae-byeok-jogadora-067-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kang-sae-byeok-jogadora-067-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kang-sae-byeok-jogadora-067-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kang-sae-byeok-jogadora-067",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kang-sae-byeok-jogadora-067.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "vibranium-shield",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vibranium-shield.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "infinity-gauntlet",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/infinity-gauntlet.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kim-shin-o-goblin-imortal",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kim-shin-o-goblin-imortal.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mjolnir-hammer",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mjolnir-hammer.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "vader-lightsaber",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vader-lightsaber.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "elder-wand",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/elder-wand.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "vincenzo-cassano",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vincenzo-cassano.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "anakin-lightsaber",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/anakin-lightsaber.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "anduril-flame-west",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/anduril-flame-west.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ryohei-arisu",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ryohei-arisu.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "glamdring-lotr",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/glamdring-lotr.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hong-hae-in",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hong-hae-in.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "stormbreaker-thor",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/stormbreaker-thor.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "naksu-mu-deok-assassina-das-sombras",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/naksu-mu-deok-assassina-das-sombras.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sting-lotr",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sting-lotr.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jang-uk-estrela-do-rei",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jang-uk-estrela-do-rei.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kratos-god-of-war-greek-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kratos-god-of-war-greek-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kratos-god-of-war-greek-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kratos-god-of-war-greek-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kratos-god-of-war-greek",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kratos-god-of-war-greek.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dante-sparda-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dante-sparda-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dante-sparda-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dante-sparda-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "vergil-sin-devil-trigger-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vergil-sin-devil-trigger-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "vergil-sin-devil-trigger-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vergil-sin-devil-trigger-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "master-sword-zelda",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/master-sword-zelda.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "buster-sword-ff7",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/buster-sword-ff7.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "portal-gun",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/portal-gun.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "diamond-sword-minecraft",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/diamond-sword-minecraft.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hylian-shield",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hylian-shield.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "blades-of-chaos-gow",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/blades-of-chaos-gow.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "crowbar-half-life",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/crowbar-half-life.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "bfg-9000",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/bfg-9000.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "frostmourne-warcraft",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/frostmourne-warcraft.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "masamune-sephiroth",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/masamune-sephiroth.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kingdom-key-kh",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kingdom-key-kh.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "leviathan-axe-gow",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/leviathan-axe-gow.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "blade-of-olympus",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/blade-of-olympus.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rebellion-dmc",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rebellion-dmc.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "crucible-blade-doom",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/crucible-blade-doom.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rivers-of-blood",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rivers-of-blood.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yamato-dmc",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yamato-dmc.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gunblade-revolver",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gunblade-revolver.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dark-moon-greatsword",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dark-moon-greatsword.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "hidden-blade-ezio",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hidden-blade-ezio.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "energy-sword-halo",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/energy-sword-halo.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "virtuous-contract-nier",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/virtuous-contract-nier.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "brotherhood-ffx",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/brotherhood-ffx.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "moonlight-greatsword-souls",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/moonlight-greatsword-souls.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "red-queen-dmc",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/red-queen-dmc.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "monado-xenoblade",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/monado-xenoblade.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sephiroth-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sephiroth-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "cloud-strife-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/cloud-strife-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yorha-2-gou-b-gata-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yorha-2-gou-b-gata-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "cloud-strife-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/cloud-strife-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sephiroth-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sephiroth-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "yorha-2-gou-b-gata-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/yorha-2-gou-b-gata-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "wakai-onna",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/wakai-onna.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "bos-brunnen",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/bos-brunnen.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jungkook-era-golden-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jungkook-era-golden-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jungkook-era-golden-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jungkook-era-golden-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jungkook-era-golden",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jungkook-era-golden.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "v-kim-taehyung-layover-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/v-kim-taehyung-layover-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "v-kim-taehyung-layover-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/v-kim-taehyung-layover-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "v-kim-taehyung-layover",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/v-kim-taehyung-layover.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lalisa-manoban-lisa-rockstar-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lalisa-manoban-lisa-rockstar-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lalisa-manoban-lisa-rockstar-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lalisa-manoban-lisa-rockstar-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lalisa-manoban-lisa-rockstar",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lalisa-manoban-lisa-rockstar.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jennie-kim-era-ruby-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jennie-kim-era-ruby-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jennie-kim-era-ruby-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jennie-kim-era-ruby-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jennie-kim-era-ruby",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jennie-kim-era-ruby.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ado-uta-rainha-do-j-pop-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ado-uta-rainha-do-j-pop-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ado-uta-rainha-do-j-pop-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ado-uta-rainha-do-j-pop-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "felix-lee-stray-kids",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/felix-lee-stray-kids.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "karina-aespa-supernova",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/karina-aespa-supernova.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sung-jinwoo-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sung-jinwoo-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sung-jinwoo-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sung-jinwoo-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "aguero-agnis-khun-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/aguero-agnis-khun-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dok-ja-kim-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dok-ja-kim-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "aguero-agnis-khun-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/aguero-agnis-khun-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dok-ja-kim-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dok-ja-kim-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "eminem-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/eminem-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "eminem-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/eminem-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "eminem",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/eminem.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "snoop-dogg-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/snoop-dogg-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "snoop-dogg-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/snoop-dogg-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "snoop-dogg",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/snoop-dogg.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "post-malone-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/post-malone-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "post-malone-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/post-malone-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "post-malone",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/post-malone.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "travis-scott-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/travis-scott-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "travis-scott-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/travis-scott-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "travis-scott",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/travis-scott.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "matue-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/matue-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "matue-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/matue-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "matue",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/matue.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "juice-wrld-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/juice-wrld-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "l7nnon-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/l7nnon-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "notorious-big-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/notorious-big-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "orochi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/orochi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kendrick-lamar-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kendrick-lamar-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "wiu-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/wiu-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "veigh-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/veigh-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "djonga-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/djonga-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "2pac-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/2pac-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "drake-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/drake-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kanye-west-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kanye-west-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "asap-rocky-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/asap-rocky-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "playboi-carti-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/playboi-carti-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lil-peep-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lil-peep-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kayblack-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kayblack-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mc-cabelinho-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mc-cabelinho-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "filipe-ret-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/filipe-ret-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mc-poze-do-rodo-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mc-poze-do-rodo-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mc-ryan-sp-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mc-ryan-sp-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "teto-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/teto-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "bk-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/bk-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mc-cabelinho-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mc-cabelinho-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "wiu-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/wiu-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "2pac-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/2pac-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "playboi-carti-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/playboi-carti-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "teto-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/teto-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "veigh-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/veigh-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kendrick-lamar-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kendrick-lamar-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kanye-west-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kanye-west-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "drake-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/drake-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "djonga-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/djonga-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "notorious-big-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/notorious-big-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "asap-rocky-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/asap-rocky-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lil-peep-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lil-peep-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "juice-wrld-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/juice-wrld-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kayblack-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kayblack-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "filipe-ret-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/filipe-ret-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "orochi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/orochi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "l7nnon-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/l7nnon-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mc-poze-do-rodo-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mc-poze-do-rodo-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mc-ryan-sp-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mc-ryan-sp-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "bk-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/bk-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "2pac",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/2pac.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "notorious-big",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/notorious-big.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kendrick-lamar",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kendrick-lamar.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "drake",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/drake.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kanye-west",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kanye-west.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "asap-rocky",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/asap-rocky.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "playboi-carti",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/playboi-carti.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lil-peep",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lil-peep.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "juice-wrld",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/juice-wrld.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kayblack",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kayblack.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "veigh",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/veigh.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mc-cabelinho",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mc-cabelinho.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "filipe-ret",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/filipe-ret.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "orochi",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/orochi.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "l7nnon",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/l7nnon.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mc-poze-do-rodo",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mc-poze-do-rodo.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "mc-ryan-sp",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/mc-ryan-sp.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "wiu",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/wiu.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "teto",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/teto.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "djonga",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/djonga.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "bk",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/bk.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "bob-marley-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/bob-marley-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "bob-marley-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/bob-marley-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "bob-marley",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/bob-marley.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "daft-punk-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/daft-punk-mythic.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "daft-punk-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/daft-punk-epic.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "daft-punk",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/daft-punk.jpg",
+    "kind": "ITEM",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "michael-jackson-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/michael-jackson-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "michael-jackson-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/michael-jackson-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "michael-jackson",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/michael-jackson.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "beyonce-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/beyonce-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "beyonce-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/beyonce-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "beyonce",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/beyonce.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "taylor-swift-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/taylor-swift-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "taylor-swift-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/taylor-swift-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "taylor-swift",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/taylor-swift.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rihanna-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rihanna-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rihanna-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rihanna-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rihanna",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rihanna.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "the-weeknd-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/the-weeknd-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "the-weeknd-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/the-weeknd-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "the-weeknd",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/the-weeknd.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "billie-eilish-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/billie-eilish-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "billie-eilish-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/billie-eilish-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "billie-eilish",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/billie-eilish.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dua-lipa-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dua-lipa-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dua-lipa-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dua-lipa-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dua-lipa",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dua-lipa.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "bruno-mars-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/bruno-mars-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lana-del-rey-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lana-del-rey-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lady-gaga-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lady-gaga-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "adele-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/adele-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "adele-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/adele-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "bruno-mars-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/bruno-mars-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lady-gaga-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lady-gaga-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lana-del-rey-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lana-del-rey-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "bruno-mars",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/bruno-mars.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lady-gaga",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lady-gaga.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "adele",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/adele.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lana-del-rey",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lana-del-rey.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "freddie-mercury-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/freddie-mercury-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "freddie-mercury-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/freddie-mercury-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "freddie-mercury",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/freddie-mercury.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kurt-cobain-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kurt-cobain-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kurt-cobain-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kurt-cobain-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kurt-cobain",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kurt-cobain.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "david-bowie-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/david-bowie-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "chester-bennington-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/chester-bennington-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "john-lennon-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/john-lennon-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "elvis-presley-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/elvis-presley-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "david-bowie-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/david-bowie-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "elvis-presley-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/elvis-presley-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "chester-bennington-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/chester-bennington-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "john-lennon-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/john-lennon-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "chester-bennington",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/chester-bennington.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "john-lennon",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/john-lennon.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "david-bowie",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/david-bowie.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "elvis-presley",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/elvis-presley.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "michael-jordan-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/michael-jordan-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "michael-jordan-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/michael-jordan-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "michael-jordan",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/michael-jordan.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lebron-james-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lebron-james-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lebron-james-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lebron-james-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lebron-james",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lebron-james.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kobe-bryant-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kobe-bryant-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kobe-bryant-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kobe-bryant-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kobe-bryant",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kobe-bryant.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "stephen-curry-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/stephen-curry-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "stephen-curry-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/stephen-curry-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "stephen-curry",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/stephen-curry.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shaquille-oneal-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shaquille-oneal-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shaquille-oneal-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shaquille-oneal-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "shaquille-oneal",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/shaquille-oneal.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "giannis-antetokounmpo-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/giannis-antetokounmpo-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "giannis-antetokounmpo-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/giannis-antetokounmpo-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "giannis-antetokounmpo",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/giannis-antetokounmpo.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "allen-iverson-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/allen-iverson-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "allen-iverson-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/allen-iverson-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "allen-iverson",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/allen-iverson.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "luka-doncic-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/luka-doncic-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "luka-doncic-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/luka-doncic-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "luka-doncic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/luka-doncic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "damian-lillard-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/damian-lillard-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kevin-durant-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kevin-durant-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "victor-wembanyama-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/victor-wembanyama-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jimmy-butler-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jimmy-butler-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "bill-russell-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/bill-russell-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "anthony-edwards-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/anthony-edwards-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dwyane-wade-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dwyane-wade-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "wilt-chamberlain-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/wilt-chamberlain-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ja-morant-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ja-morant-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kawhi-leonard-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kawhi-leonard-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "james-harden-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/james-harden-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jayson-tatum-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jayson-tatum-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "nikola-jokic-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/nikola-jokic-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "joel-embiid-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/joel-embiid-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "magic-johnson-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/magic-johnson-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "larry-bird-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/larry-bird-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tim-duncan-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tim-duncan-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dirk-nowitzki-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dirk-nowitzki-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kyrie-irving-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kyrie-irving-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "larry-bird-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/larry-bird-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dirk-nowitzki-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dirk-nowitzki-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "wilt-chamberlain-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/wilt-chamberlain-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kyrie-irving-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kyrie-irving-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kawhi-leonard-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kawhi-leonard-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kevin-durant-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kevin-durant-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jayson-tatum-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jayson-tatum-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "joel-embiid-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/joel-embiid-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "james-harden-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/james-harden-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "victor-wembanyama-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/victor-wembanyama-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "anthony-edwards-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/anthony-edwards-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "nikola-jokic-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/nikola-jokic-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "magic-johnson-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/magic-johnson-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "bill-russell-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/bill-russell-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tim-duncan-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tim-duncan-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dwyane-wade-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dwyane-wade-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ja-morant-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ja-morant-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "damian-lillard-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/damian-lillard-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jimmy-butler-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jimmy-butler-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "victor-wembanyama",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/victor-wembanyama.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "anthony-edwards",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/anthony-edwards.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jayson-tatum",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jayson-tatum.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "nikola-jokic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/nikola-jokic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "joel-embiid",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/joel-embiid.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kevin-durant",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kevin-durant.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "james-harden",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/james-harden.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "magic-johnson",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/magic-johnson.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "larry-bird",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/larry-bird.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "wilt-chamberlain",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/wilt-chamberlain.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "bill-russell",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/bill-russell.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tim-duncan",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tim-duncan.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dirk-nowitzki",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dirk-nowitzki.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dwyane-wade",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dwyane-wade.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kyrie-irving",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kyrie-irving.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ja-morant",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ja-morant.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "damian-lillard",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/damian-lillard.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kawhi-leonard",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kawhi-leonard.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jimmy-butler",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jimmy-butler.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lionel-messi-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lionel-messi-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lionel-messi-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lionel-messi-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lionel-messi",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lionel-messi.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "pele-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/pele-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "pele-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/pele-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "pele",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/pele.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "cristiano-ronaldo-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/cristiano-ronaldo-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "cristiano-ronaldo-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/cristiano-ronaldo-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "cristiano-ronaldo",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/cristiano-ronaldo.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "marta-vieira-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/marta-vieira-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "marta-vieira-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/marta-vieira-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "marta-vieira",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/marta-vieira.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ronaldo-fenomeno-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ronaldo-fenomeno-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ronaldo-fenomeno-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ronaldo-fenomeno-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ronaldo-fenomeno",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ronaldo-fenomeno.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ronaldinho-gaucho-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ronaldinho-gaucho-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ronaldinho-gaucho-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ronaldinho-gaucho-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ronaldinho-gaucho",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ronaldinho-gaucho.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kylian-mbappe-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kylian-mbappe-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kylian-mbappe-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kylian-mbappe-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kylian-mbappe",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kylian-mbappe.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "neymar-jr-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/neymar-jr-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "neymar-jr-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/neymar-jr-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "neymar-jr",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/neymar-jr.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "erling-haaland-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/erling-haaland-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "erling-haaland-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/erling-haaland-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "erling-haaland",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/erling-haaland.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "vini-jr-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vini-jr-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "vini-jr-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vini-jr-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "vini-jr",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vini-jr.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "thierry-henry-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/thierry-henry-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "diego-maradona-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/diego-maradona-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sergio-ramos-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sergio-ramos-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kevin-de-bruyne-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kevin-de-bruyne-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gianluigi-buffon-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gianluigi-buffon-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "xavi-hernandez-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/xavi-hernandez-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rivaldo-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rivaldo-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "luka-modric-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/luka-modric-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rodri-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rodri-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "roberto-carlos-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/roberto-carlos-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "paolo-maldini-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/paolo-maldini-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lev-yashin-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lev-yashin-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "manuel-neuer-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/manuel-neuer-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "franz-beckenbauer-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/franz-beckenbauer-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "karim-benzema-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/karim-benzema-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zinedine-zidane-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zinedine-zidane-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "johan-cruyff-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/johan-cruyff-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zico-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zico-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "romario-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/romario-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kaka-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kaka-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jude-bellingham-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jude-bellingham-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lamine-yamal-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lamine-yamal-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "andres-iniesta-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/andres-iniesta-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "luis-suarez-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/luis-suarez-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "luis-suarez-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/luis-suarez-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jude-bellingham-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jude-bellingham-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "paolo-maldini-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/paolo-maldini-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kaka-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kaka-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lev-yashin-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lev-yashin-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "roberto-carlos-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/roberto-carlos-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "manuel-neuer-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/manuel-neuer-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gianluigi-buffon-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gianluigi-buffon-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "diego-maradona-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/diego-maradona-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zinedine-zidane-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zinedine-zidane-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "johan-cruyff-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/johan-cruyff-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zico-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zico-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "romario-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/romario-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "luka-modric-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/luka-modric-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kevin-de-bruyne-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kevin-de-bruyne-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lamine-yamal-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lamine-yamal-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rodri-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rodri-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "franz-beckenbauer-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/franz-beckenbauer-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rivaldo-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rivaldo-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "thierry-henry-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/thierry-henry-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "andres-iniesta-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/andres-iniesta-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "xavi-hernandez-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/xavi-hernandez-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sergio-ramos-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sergio-ramos-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "karim-benzema-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/karim-benzema-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "diego-maradona",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/diego-maradona.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zinedine-zidane",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zinedine-zidane.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "johan-cruyff",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/johan-cruyff.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zico",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zico.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "romario",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/romario.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kaka",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kaka.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "luka-modric",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/luka-modric.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kevin-de-bruyne",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kevin-de-bruyne.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jude-bellingham",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jude-bellingham.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lamine-yamal",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lamine-yamal.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rodri",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rodri.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "manuel-neuer",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/manuel-neuer.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "gianluigi-buffon",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/gianluigi-buffon.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "lev-yashin",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lev-yashin.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "franz-beckenbauer",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/franz-beckenbauer.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "paolo-maldini",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/paolo-maldini.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "roberto-carlos",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/roberto-carlos.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "rivaldo",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/rivaldo.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "thierry-henry",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/thierry-henry.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "andres-iniesta",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/andres-iniesta.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "xavi-hernandez",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/xavi-hernandez.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sergio-ramos",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sergio-ramos.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "luis-suarez",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/luis-suarez.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "karim-benzema",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/karim-benzema.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jon-jones-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jon-jones-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jon-jones-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jon-jones-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "jon-jones",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jon-jones.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "anderson-silva-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/anderson-silva-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "anderson-silva-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/anderson-silva-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "anderson-silva",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/anderson-silva.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "amanda-nunes-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/amanda-nunes-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "amanda-nunes-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/amanda-nunes-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "amanda-nunes",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/amanda-nunes.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "khabib-nurmagomedov-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/khabib-nurmagomedov-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "khabib-nurmagomedov-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/khabib-nurmagomedov-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "khabib-nurmagomedov",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/khabib-nurmagomedov.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "islam-makhachev-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/islam-makhachev-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "islam-makhachev-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/islam-makhachev-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "islam-makhachev",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/islam-makhachev.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "alex-pereira-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/alex-pereira-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "alex-pereira-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/alex-pereira-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "alex-pereira",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/alex-pereira.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "israel-adesanya-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/israel-adesanya-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "israel-adesanya-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/israel-adesanya-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "israel-adesanya",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/israel-adesanya.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "conor-mcgregor-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/conor-mcgregor-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "conor-mcgregor-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/conor-mcgregor-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "conor-mcgregor",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/conor-mcgregor.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ilia-topuria-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ilia-topuria-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ilia-topuria-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ilia-topuria-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ilia-topuria",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ilia-topuria.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "charles-do-bronx-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/charles-do-bronx-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "charles-do-bronx-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/charles-do-bronx-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "charles-do-bronx",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/charles-do-bronx.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kamaru-usman-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kamaru-usman-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "francis-ngannou-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/francis-ngannou-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "valentina-shevchenko-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/valentina-shevchenko-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "vitor-belfort-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vitor-belfort-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "demetrious-johnson-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/demetrious-johnson-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "royce-gracie-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/royce-gracie-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "fedor-emelianenko-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/fedor-emelianenko-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "colby-covington-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/colby-covington-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zhang-weili-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zhang-weili-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sean-omalley-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sean-omalley-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "alex-volkanovski-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/alex-volkanovski-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dustin-poirier-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dustin-poirier-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "justin-gaethje-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/justin-gaethje-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "max-holloway-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/max-holloway-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tom-aspinall-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tom-aspinall-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "paddy-pimblett-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/paddy-pimblett-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "georges-st-pierre-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/georges-st-pierre-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "stipe-miocic-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/stipe-miocic-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ronda-rousey-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ronda-rousey-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "wanderlei-silva-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/wanderlei-silva-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "nate-diaz-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/nate-diaz-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "robert-whittaker-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/robert-whittaker-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dricus-du-plessis-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dricus-du-plessis-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "belal-muhammad-mythic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/belal-muhammad-mythic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "wanderlei-silva-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/wanderlei-silva-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "fedor-emelianenko-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/fedor-emelianenko-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dustin-poirier-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dustin-poirier-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sean-omalley-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sean-omalley-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "justin-gaethje-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/justin-gaethje-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "georges-st-pierre-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/georges-st-pierre-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "stipe-miocic-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/stipe-miocic-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "robert-whittaker-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/robert-whittaker-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "royce-gracie-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/royce-gracie-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "francis-ngannou-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/francis-ngannou-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "paddy-pimblett-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/paddy-pimblett-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "vitor-belfort-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vitor-belfort-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "alex-volkanovski-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/alex-volkanovski-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "max-holloway-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/max-holloway-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tom-aspinall-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tom-aspinall-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "demetrious-johnson-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/demetrious-johnson-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kamaru-usman-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kamaru-usman-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "colby-covington-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/colby-covington-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ronda-rousey-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ronda-rousey-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zhang-weili-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zhang-weili-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "valentina-shevchenko-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/valentina-shevchenko-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "nate-diaz-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/nate-diaz-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dricus-du-plessis-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dricus-du-plessis-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "belal-muhammad-epic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/belal-muhammad-epic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "alex-volkanovski",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/alex-volkanovski.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dustin-poirier",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dustin-poirier.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "justin-gaethje",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/justin-gaethje.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "max-holloway",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/max-holloway.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "tom-aspinall",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/tom-aspinall.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "sean-omalley",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/sean-omalley.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "paddy-pimblett",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/paddy-pimblett.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "georges-st-pierre",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/georges-st-pierre.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "demetrious-johnson",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/demetrious-johnson.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "fedor-emelianenko",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/fedor-emelianenko.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "francis-ngannou",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/francis-ngannou.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "kamaru-usman",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kamaru-usman.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "colby-covington",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/colby-covington.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "stipe-miocic",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/stipe-miocic.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "ronda-rousey",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ronda-rousey.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "zhang-weili",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/zhang-weili.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "valentina-shevchenko",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/valentina-shevchenko.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "wanderlei-silva",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/wanderlei-silva.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "vitor-belfort",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vitor-belfort.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "royce-gracie",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/royce-gracie.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "nate-diaz",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/nate-diaz.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "robert-whittaker",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/robert-whittaker.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "dricus-du-plessis",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/dricus-du-plessis.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  },
+  {
+    "slug": "belal-muhammad",
+    "url": "https://yo-apollon.github.io/Kogu-Anime/assets/cards/belal-muhammad.jpg",
+    "kind": "CHARACTER",
+    "source": "docs/assets/cards"
+  }
+]

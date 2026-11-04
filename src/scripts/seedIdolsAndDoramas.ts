@@ -43,7 +43,7 @@ export const IDOLS_AND_DORAMAS: readonly CatalogEntry[] = [
     spd: 82,
     hp: 310,
     description: "O sobrevivente e vencedor do Jogo da Lula que retorna para destruir a organização por dentro.",
-    imageUrl: "https://image.tmdb.org/t/p/w500/dXl05a2C5cK8bC2Z3w0u8A9wY0I.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/seong-gi-hun-jogador-456.jpg",
   },
   {
     name: "Kang Sae-byeok (Jogadora 067)",
@@ -58,7 +58,7 @@ export const IDOLS_AND_DORAMAS: readonly CatalogEntry[] = [
     spd: 90,
     hp: 280,
     description: "A ágil e determinada Jogadora 067 de Round 6, que luta pela segurança de seu irmão mais novo.",
-    imageUrl: "https://image.tmdb.org/t/p/w500/p2fe6v4H4E7iC6E2E3w8u7A5wY2.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kang-sae-byeok-jogadora-067.jpg",
   },
   {
     name: "Kim Shin (O Goblin Imortal)",
@@ -73,7 +73,7 @@ export const IDOLS_AND_DORAMAS: readonly CatalogEntry[] = [
     spd: 88,
     hp: 340,
     description: "General condecorado da dinastia Goryeo amaldiçoado com a imortalidade como um Dokkaebi.",
-    imageUrl: "https://image.tmdb.org/t/p/w500/t9xP4E2v9A5wY1I8cK3bC7Z2w0u.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/kim-shin-o-goblin-imortal.jpg",
   },
   {
     name: "Vincenzo Cassano",
@@ -88,7 +88,7 @@ export const IDOLS_AND_DORAMAS: readonly CatalogEntry[] = [
     spd: 86,
     hp: 290,
     description: "Advogado e consigliere implacável da máfia italiana que aplica justiça pelos próprios métodos.",
-    imageUrl: "https://image.tmdb.org/t/p/w500/dvXJgH4E7iC6E2E3w8u7A5wY2I1.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/vincenzo-cassano.jpg",
   },
   {
     name: "Naksu / Mu-deok (Assassina das Sombras)",
@@ -103,7 +103,7 @@ export const IDOLS_AND_DORAMAS: readonly CatalogEntry[] = [
     spd: 95,
     hp: 275,
     description: "A temida maga assassina cuja alma habita um novo corpo em Daeho.",
-    imageUrl: "https://image.tmdb.org/t/p/w500/q8fe6v4H4E7iC6E2E3w8u7A5wY0.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/naksu-mu-deok-assassina-das-sombras.jpg",
   },
   {
     name: "Jang Uk (Estrela do Rei)",
@@ -118,7 +118,7 @@ export const IDOLS_AND_DORAMAS: readonly CatalogEntry[] = [
     spd: 89,
     hp: 300,
     description: "Jovem mestre de Daeho nascido sob a constelação da Estrela do Rei e portador da Pedra de Gelo.",
-    imageUrl: "https://image.tmdb.org/t/p/w500/r3fe6v4H4E7iC6E2E3w8u7A5wY9.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jang-uk-estrela-do-rei.jpg",
   },
   {
     name: "Hong Hae-in",
@@ -133,7 +133,7 @@ export const IDOLS_AND_DORAMAS: readonly CatalogEntry[] = [
     spd: 84,
     hp: 270,
     description: "A herdeira soberana do Queens Group, conhecida por sua postura inabalável e coração leal.",
-    imageUrl: "https://image.tmdb.org/t/p/w500/s4fe6v4H4E7iC6E2E3w8u7A5wY8.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/hong-hae-in.jpg",
   },
   {
     name: "Ryohei Arisu",
@@ -148,7 +148,7 @@ export const IDOLS_AND_DORAMAS: readonly CatalogEntry[] = [
     spd: 92,
     hp: 280,
     description: "Mestre dos jogos de Copas e estrategista brilhante preso no mundo mortal de Borderland.",
-    imageUrl: "https://image.tmdb.org/t/p/w500/u5fe6v4H4E7iC6E2E3w8u7A5wY7.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/ryohei-arisu.jpg",
   },
 
   // CANTORES / IDOLS (K-Pop, J-Pop & Pop Global)
@@ -165,7 +165,7 @@ export const IDOLS_AND_DORAMAS: readonly CatalogEntry[] = [
     spd: 94,
     hp: 310,
     description: "O Golden Maknae do BTS em sua fase solo estelar, dominando os palcos globais.",
-    imageUrl: "https://image.tmdb.org/t/p/w500/2c3bC7Z2w0u8A9wY0I1dXl05a2C.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jungkook-era-golden.jpg",
   },
   {
     name: "V - Kim Taehyung (Layover)",
@@ -180,7 +180,7 @@ export const IDOLS_AND_DORAMAS: readonly CatalogEntry[] = [
     spd: 88,
     hp: 305,
     description: "Ícone visual e vocalista barítono do BTS com presença artística magnética.",
-    imageUrl: "https://image.tmdb.org/t/p/w500/3c3bC7Z2w0u8A9wY0I1dXl05a2D.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/v-kim-taehyung-layover.jpg",
   },
   {
     name: "Lalisa Manoban (Lisa - Rockstar)",
@@ -195,7 +195,7 @@ export const IDOLS_AND_DORAMAS: readonly CatalogEntry[] = [
     spd: 96,
     hp: 295,
     description: "Dançarina principal e rapper do BLACKPINK, um fenômeno mundial da música pop.",
-    imageUrl: "https://image.tmdb.org/t/p/w500/4c3bC7Z2w0u8A9wY0I1dXl05a2E.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/lalisa-manoban-lisa-rockstar.jpg",
   },
   {
     name: "Jennie Kim (Era Ruby)",
@@ -210,7 +210,7 @@ export const IDOLS_AND_DORAMAS: readonly CatalogEntry[] = [
     spd: 93,
     hp: 290,
     description: "A It-Girl global do BLACKPINK, unindo rap afiado, vocais marcantes e alta moda.",
-    imageUrl: "https://image.tmdb.org/t/p/w500/5c3bC7Z2w0u8A9wY0I1dXl05a2F.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/jennie-kim-era-ruby.jpg",
   },
   {
     name: "Felix Lee (Stray Kids)",
@@ -225,7 +225,7 @@ export const IDOLS_AND_DORAMAS: readonly CatalogEntry[] = [
     spd: 91,
     hp: 285,
     description: "Dono da voz mais grave e hipnótica do K-Pop, estrela central do Stray Kids.",
-    imageUrl: "https://image.tmdb.org/t/p/w500/6c3bC7Z2w0u8A9wY0I1dXl05a2G.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/felix-lee-stray-kids.jpg",
   },
   {
     name: "Karina (aespa - Supernova)",
@@ -240,7 +240,7 @@ export const IDOLS_AND_DORAMAS: readonly CatalogEntry[] = [
     spd: 92,
     hp: 280,
     description: "Líder futurista do aespa com visual irreal que parece saído diretamente de um jogo.",
-    imageUrl: "https://image.tmdb.org/t/p/w500/7c3bC7Z2w0u8A9wY0I1dXl05a2H.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/karina-aespa-supernova.jpg",
   },
   {
     name: "Ado (Uta - Rainha do J-Pop)",
@@ -270,7 +270,7 @@ export const IDOLS_AND_DORAMAS: readonly CatalogEntry[] = [
     spd: 90,
     hp: 310,
     description: "O astro global do Synthwave e R&B por trás dos maiores recordes da música moderna.",
-    imageUrl: "https://image.tmdb.org/t/p/w500/8c3bC7Z2w0u8A9wY0I1dXl05a2I.jpg",
+    imageUrl: "https://yo-apollon.github.io/Kogu-Anime/assets/cards/the-weeknd.jpg",
   },
 ];
 

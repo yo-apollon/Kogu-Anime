@@ -81,7 +81,11 @@ describe("normalizeRemote", () => {
     expect(normalizeRemote("https://github.com/yo-apollon/kogu.git")).toBe("github.com/yo-apollon/kogu");
     expect(normalizeRemote("git@github.com:Yo-Apollon/Kovu-Anime.git")).toBe("github.com/yo-apollon/kovu-anime");
     expect(normalizeRemote("https://user:tok@github.com/yo-apollon/kogu")).toBe("github.com/yo-apollon/kogu");
-    expect(DEFAULT_POLICIES.map((p) => p.remote)).toEqual(["github.com/yo-apollon/kogu", "github.com/yo-apollon/kovu-anime"]);
+    expect(DEFAULT_POLICIES.map((p) => p.remote)).toEqual([
+      "github.com/yo-apollon/kogu",
+      "github.com/yo-apollon/kogu-anime",
+      "github.com/yo-apollon/kovu-anime",
+    ]);
   });
 });
 

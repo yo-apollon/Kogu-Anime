@@ -10,7 +10,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { and, asc, eq } from "drizzle-orm";
-import { classifyArt, isItemSubject, type ArtKind } from "../catalog/artQuality.js";
+import { classifyArt, indexOverrides, isItemSubject, resolveCardArt, type ArtKind, type ArtOverride } from "../catalog/artQuality.js";
+import { loadArtOverrides } from "../canvas/engine/artResolver.js";
 import type { DbExecutor } from "../catalog/executor.js";
 import { pickEmblem } from "../canvas/emblems/pick.js";
 import { entities, entityImages, entitySeries, series } from "../infra/db/schema/index.js";
@@ -23,6 +24,7 @@ export interface AuditInput {
   type: string | null;
   tier: string;
   imageUrl: string | null;
+  emblemHint?: string | null;
 }
 
 export interface AuditRow extends AuditInput {
@@ -38,19 +40,40 @@ export interface AuditRow extends AuditInput {
 const TIER_ORDER = ["COMMON", "RARE", "EPIC", "LEGENDARY", "MYTHIC"];
 const norm = (s: string): string => s.trim().toLowerCase();
 
-export function buildAuditRows(items: readonly AuditInput[]): AuditRow[] {
+export function buildAuditRows(
+  items: readonly AuditInput[],
+  overrides: ReadonlyMap<string, ArtOverride> | readonly ArtOverride[] = []
+): AuditRow[] {
+  const ovMap = overrides instanceof Map ? overrides : indexOverrides(overrides as readonly ArtOverride[]);
   const namesByUrl = new Map<string, Set<string>>();
   for (const it of items) {
-    if (!it.imageUrl) continue;
-    const set = namesByUrl.get(it.imageUrl) ?? new Set<string>();
+    const resolvedUrl = ovMap.get(it.slug)?.url ?? it.imageUrl;
+    if (!resolvedUrl) continue;
+    const set = namesByUrl.get(resolvedUrl) ?? new Set<string>();
     set.add(norm(it.name));
-    namesByUrl.set(it.imageUrl, set);
+    namesByUrl.set(resolvedUrl, set);
   }
   return items.map((it) => {
-    const c = classifyArt({ type: it.type, universe: it.universe, imageUrl: it.imageUrl, name: it.name });
-    const shared = it.imageUrl ? Math.max(0, (namesByUrl.get(it.imageUrl)?.size ?? 1) - 1) : 0;
-    const emblem = c.trusted ? "" : isItemSubject({ type: it.type, name: it.name }) ? pickEmblem(it.name) : "character";
-    return { ...it, kind: c.kind, trusted: c.trusted, reason: c.reason, sharedWithOthers: shared, emblem };
+    const ov = ovMap.get(it.slug);
+    const resolvedUrl = ov?.url ?? it.imageUrl;
+    const c = ov
+      ? { kind: "CHARACTER" as ArtKind, trusted: true, reason: `override ${ov.kind} (${ov.source})` }
+      : classifyArt({ type: it.type, universe: it.universe, imageUrl: it.imageUrl, name: it.name });
+    const shared = resolvedUrl ? Math.max(0, (namesByUrl.get(resolvedUrl)?.size ?? 1) - 1) : 0;
+    const resolved = resolveCardArt(
+      { type: it.type, universe: it.universe, imageUrl: it.imageUrl, name: it.name, slug: it.slug },
+      ovMap
+    );
+    const emblem = c.trusted
+      ? ""
+      : it.emblemHint
+        ? it.emblemHint
+        : resolved.mode === "EMBLEM"
+          ? resolved.emblem
+          : isItemSubject({ type: it.type, name: it.name })
+            ? pickEmblem(it.name)
+            : "character";
+    return { ...it, imageUrl: resolvedUrl ?? null, kind: c.kind, trusted: c.trusted, reason: c.reason, sharedWithOthers: shared, emblem };
   });
 }
 
@@ -146,20 +169,31 @@ interface ExportedCard {
   imageUrl?: string | null;
   type?: string | null;
   slug?: string;
+  art?: { mode: "IMAGE"; url: string } | { mode: "EMBLEM"; emblem: string };
 }
 
-/** Leitura do catalogo exportado (docs/catalog.json): sem tipo; o tipo e inferido pelo nome. */
+/** Leitura do catalogo exportado (docs/catalog.json): sem tipo; o tipo e inferido pelo campo art ou pelo nome. */
 export async function loadFromCatalogFile(file: string): Promise<AuditInput[]> {
   const cards = JSON.parse(await fs.readFile(file, "utf8")) as ExportedCard[];
-  return cards.map((c) => ({
-    name: c.name,
-    slug: c.slug ?? String(c.id ?? c.name),
-    universe: c.universe,
-    series: c.seriesTitle ?? "",
-    type: c.type ?? null,
-    tier: c.tier,
-    imageUrl: c.imageUrl ?? null,
-  }));
+  return cards.map((c) => {
+    const inferredType =
+      c.type ??
+      (c.art?.mode === "EMBLEM" && c.art.emblem !== "character"
+        ? "WEAPON"
+        : c.art
+          ? "CHARACTER"
+          : null);
+    return {
+      name: c.name,
+      slug: c.slug ?? String(c.id ?? c.name),
+      universe: c.universe,
+      series: c.seriesTitle ?? "",
+      type: inferredType,
+      tier: c.tier,
+      imageUrl: c.imageUrl ?? null,
+      emblemHint: c.art?.mode === "EMBLEM" ? c.art.emblem : null,
+    };
+  });
 }
 
 async function main(): Promise<void> {
@@ -179,7 +213,7 @@ async function main(): Promise<void> {
     source = "banco (somente SELECT)";
   }
 
-  const rows = buildAuditRows(items);
+  const rows = buildAuditRows(items, loadArtOverrides());
   const out = path.resolve(".cache/art-audit.csv");
   await fs.mkdir(path.dirname(out), { recursive: true });
   await fs.writeFile(out, toCsv(rows), "utf8");

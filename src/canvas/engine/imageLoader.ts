@@ -99,6 +99,22 @@ export class ImageLoader {
   }
 
   private async fill(url: string, key: string): Promise<Buffer | null> {
+    const OWN_PREFIX = "https://yo-apollon.github.io/Kogu-Anime/assets/cards/";
+    if (url.startsWith(OWN_PREFIX)) {
+      const filename = url.slice(OWN_PREFIX.length);
+      const localPath = path.resolve(process.cwd(), "docs/assets/cards", filename);
+      try {
+        const buf = await fs.readFile(localPath);
+        if (buf.length > 0) {
+          this.stats.diskHits++;
+          this.bytes.set(key, buf);
+          return buf;
+        }
+      } catch {
+        // segue fluxo normal se ausente
+      }
+    }
+
     if (this.dir) {
       try {
         const buf = await fs.readFile(path.join(this.dir, key));

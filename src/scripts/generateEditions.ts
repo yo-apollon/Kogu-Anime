@@ -111,11 +111,11 @@ async function createEdition(tx: DbExecutor, anchor: Target, edition: EntityEdit
   const created = (await tx.execute(sql`
     INSERT INTO entities (
       slug, name, name_native, name_normalized, universe, type, gender, franchise_id, description,
-      status, is_adult, popularity_score, tier, roll_weight, parent_id, edition
+      status, is_adult, popularity_score, tier, roll_weight, parent_id, edition, niche_id, prestige
     )
     SELECT a.slug || ${"-" + suffix}, a.name, a.name_native, a.name_normalized, a.universe, a.type, a.gender,
            a.franchise_id, a.description, 'ACTIVE', a.is_adult, a.popularity_score,
-           ${tier}::entity_tier, ${TIER_WEIGHT[tier]}::real, a.id, ${edition}
+           ${tier}::entity_tier, ${TIER_WEIGHT[tier]}::real, a.id, ${edition}, a.niche_id, a.prestige
     FROM entities a
     WHERE a.id = ${anchor.id}
       AND NOT EXISTS (SELECT 1 FROM entities x WHERE x.parent_id = a.id AND x.edition = ${edition})
